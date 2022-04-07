@@ -1,0 +1,6 @@
+TexturePath: Graphics/Item/Item5.png
+Name: "Surprise"
+Type: Scroll
+MaximumQuantity: 5
+RequiredLevel: 0
+SpellName: Unknown

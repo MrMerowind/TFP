@@ -1,0 +1,5 @@
+TexturePath: Graphics/Terrain/Path.png
+TexturePositionHorizontal: 0
+TexturePositionVertical: 0
+MovingSpeed: 1.20
+Colider: false

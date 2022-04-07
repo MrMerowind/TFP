@@ -1,0 +1,7 @@
+TexturePath: Graphics/Item/Item11.png
+Name: "Small potion"
+Type: Potion
+MaximumQuantity: 500
+RequiredLevel: 0
+HealthRegen: 500
+ManaRegen: 100

@@ -1,0 +1,5 @@
+FontPath: Fonts/RobotoCondensed-BoldItalic.ttf
+Color: rgba(255, 255, 255, 255)
+OutlineColor: rgba(0, 0, 0, 255)
+OutlineThickness: 3.5
+CharacterSize: 60

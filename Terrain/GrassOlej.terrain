@@ -1,0 +1,7 @@
+TexturePath: Graphics/Terrain/grass_olej.png
+TexturePositionHorizontal: 0
+TexturePositionVertical: 0
+TexturePositionHorizontalEnd: 2
+TexturePositionVerticalEnd: 2
+MovingSpeed: 1.00
+Colider: false

@@ -1,0 +1,15 @@
+TexturePath: Graphics/Item/TestSword.png
+Name: "Fire sword"
+Type: Weapon
+MaximumQuantity: 1
+RequiredLevel: 0
+MinimumDamage: 3
+MaximumDamage: 5
+AttackSpeed: 2.5
+LifeSteal: 5.0
+IceElement: 0
+DarknessElement: 0
+FireElement: 22
+WaterElement: 0
+LightElement: 0
+EarthElement: 0

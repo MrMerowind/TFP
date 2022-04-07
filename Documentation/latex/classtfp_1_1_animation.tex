@@ -1,0 +1,63 @@
+\hypertarget{classtfp_1_1_animation}{}\section{tfp\+:\+:Animation Class Reference}
+\label{classtfp_1_1_animation}\index{tfp\+::\+Animation@{tfp\+::\+Animation}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a42e68c7dc28f80cc952fa0e990928c68}\label{classtfp_1_1_animation_a42e68c7dc28f80cc952fa0e990928c68}} 
+enum {\bfseries Animation\+Type} \{ \newline
+{\bfseries Object\+Animation}, 
+{\bfseries Spell\+Animation}, 
+{\bfseries Character\+Animation}, 
+{\bfseries Mob\+Animation}, 
+\newline
+{\bfseries Special\+Object\+Animation}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_ae31001fa6ab26330b5d6c43e6549afec}\label{classtfp_1_1_animation_ae31001fa6ab26330b5d6c43e6549afec}} 
+bool {\bfseries operator$<$} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_aa54d7ccfad800079987f466fded835ea}\label{classtfp_1_1_animation_aa54d7ccfad800079987f466fded835ea}} 
+bool {\bfseries operator$<$=} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a528d7c85a2fec87e5e1e2dadb659ef76}\label{classtfp_1_1_animation_a528d7c85a2fec87e5e1e2dadb659ef76}} 
+bool {\bfseries operator$>$} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a78c7dbd522d5b3cfc80bbcc5f9c9a195}\label{classtfp_1_1_animation_a78c7dbd522d5b3cfc80bbcc5f9c9a195}} 
+bool {\bfseries operator$>$=} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a2bf659aea5b93da99f2b8dc07ddc71c4}\label{classtfp_1_1_animation_a2bf659aea5b93da99f2b8dc07ddc71c4}} 
+bool {\bfseries operator==} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_ac3675ed07d0da7d1607eec32c3999c21}\label{classtfp_1_1_animation_ac3675ed07d0da7d1607eec32c3999c21}} 
+bool {\bfseries operator!=} (\mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} \&Right)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a6627561deb11c487c50c7550dc38d8ab}\label{classtfp_1_1_animation_a6627561deb11c487c50c7550dc38d8ab}} 
+\mbox{\hyperlink{classtfp_1_1_animation_a6627561deb11c487c50c7550dc38d8ab}{Animation}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_ae4effa49553ca4b1a40926e333713efe}\label{classtfp_1_1_animation_ae4effa49553ca4b1a40926e333713efe}} 
+\mbox{\hyperlink{classtfp_1_1_animation_ae4effa49553ca4b1a40926e333713efe}{Animation}} (std\+::string Animation\+Name, Animation\+Type Type)
+\begin{DoxyCompactList}\small\item\em Konstruktor uruchamiajacy funkcje wczytania animacji do Gif\+List. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a76e1adadb809791647dd94cbe6f96a93}\label{classtfp_1_1_animation_a76e1adadb809791647dd94cbe6f96a93}} 
+\mbox{\hyperlink{classtfp_1_1_animation_a76e1adadb809791647dd94cbe6f96a93}{$\sim$\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_ab77e7c5225657cdda6b0c9fba49168fb}\label{classtfp_1_1_animation_ab77e7c5225657cdda6b0c9fba49168fb}} 
+void \mbox{\hyperlink{classtfp_1_1_animation_ab77e7c5225657cdda6b0c9fba49168fb}{Load\+Animation}} (std\+::string Animation\+Name, Animation\+Type Type)
+\begin{DoxyCompactList}\small\item\em Wczytuje animacje o nazwie z Gif\+List. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a5f5719838392da69c4dd50b3d5195aec}\label{classtfp_1_1_animation_a5f5719838392da69c4dd50b3d5195aec}} 
+sf\+::\+Texture \& \mbox{\hyperlink{classtfp_1_1_animation_a5f5719838392da69c4dd50b3d5195aec}{Get\+Texture}} (float Delta\+Time, float Animation\+Speed=1.\+0f, int Frame=-\/1)
+\begin{DoxyCompactList}\small\item\em Zwraca teksture animacji. Jako parametry podane sa miniony czas w sekundach, predkosc animacji, ktora klatke wyswietlic (-\/1 oznacza wyliczona) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a565246c3b670790b8dda399f93fed707}\label{classtfp_1_1_animation_a565246c3b670790b8dda399f93fed707}} 
+sf\+::\+Image \& \mbox{\hyperlink{classtfp_1_1_animation_a565246c3b670790b8dda399f93fed707}{Get\+Colider\+Image}} (float Delta\+Time, float Animation\+Speed=1.\+0f, int Frame=-\/1)
+\begin{DoxyCompactList}\small\item\em Zwraca obraz kolidera do sprawdzania kolizji. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_animation_a4fdc8748e4ea1c7a44a80b971a41676b}\label{classtfp_1_1_animation_a4fdc8748e4ea1c7a44a80b971a41676b}} 
+void \mbox{\hyperlink{classtfp_1_1_animation_a4fdc8748e4ea1c7a44a80b971a41676b}{Restart}} ()
+\begin{DoxyCompactList}\small\item\em Restartuje animacje. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+animation.\+hpp\item 
+animation.\+cpp\end{DoxyCompactItemize}

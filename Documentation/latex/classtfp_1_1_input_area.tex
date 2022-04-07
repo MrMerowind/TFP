@@ -1,0 +1,92 @@
+\hypertarget{classtfp_1_1_input_area}{}\section{tfp\+:\+:Input\+Area Class Reference}
+\label{classtfp_1_1_input_area}\index{tfp\+::\+Input\+Area@{tfp\+::\+Input\+Area}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a4626f006411eb43975f151dbfeedbad9}\label{classtfp_1_1_input_area_a4626f006411eb43975f151dbfeedbad9}} 
+\mbox{\hyperlink{classtfp_1_1_input_area_a4626f006411eb43975f151dbfeedbad9}{Input\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bez parametru wymaga uzycia funkcji \mbox{\hyperlink{classtfp_1_1_input_area_a908d0161d3449c13f11fc5a5a2cfdb54}{Reset()}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a36b1fa7432a3972e82d21e7afebe50ed}\label{classtfp_1_1_input_area_a36b1fa7432a3972e82d21e7afebe50ed}} 
+\mbox{\hyperlink{classtfp_1_1_input_area_a36b1fa7432a3972e82d21e7afebe50ed}{Input\+Area}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Konstruktor z parametrami. Jesli Handle = nullptr nalezy uzyc \mbox{\hyperlink{classtfp_1_1_input_area_a432ae211e90f00df47213e1137a8bffd}{Set\+Game\+Handle()}};. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_ab1654721345a6f0644cf6cc6ffa1111b}\label{classtfp_1_1_input_area_ab1654721345a6f0644cf6cc6ffa1111b}} 
+\mbox{\hyperlink{classtfp_1_1_input_area_ab1654721345a6f0644cf6cc6ffa1111b}{$\sim$\+Input\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a908d0161d3449c13f11fc5a5a2cfdb54}\label{classtfp_1_1_input_area_a908d0161d3449c13f11fc5a5a2cfdb54}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a908d0161d3449c13f11fc5a5a2cfdb54}{Reset}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Resetuje rozmiar i pozycje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_ab86447306eab62ea548f57ed82c83b03}\label{classtfp_1_1_input_area_ab86447306eab62ea548f57ed82c83b03}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_ab86447306eab62ea548f57ed82c83b03}{Check\+Active\+System}} ()
+\begin{DoxyCompactList}\small\item\em Tylko do Button\+Global\+List. Sprawdza czy obszar zostal aktywowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_ab64a841492e82c818d7916906efba030}\label{classtfp_1_1_input_area_ab64a841492e82c818d7916906efba030}} 
+const bool \mbox{\hyperlink{classtfp_1_1_input_area_ab64a841492e82c818d7916906efba030}{Is\+Active}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a9760a63151dd18ae2cf93e06152be12d}\label{classtfp_1_1_input_area_a9760a63151dd18ae2cf93e06152be12d}} 
+const bool \& \mbox{\hyperlink{classtfp_1_1_input_area_a9760a63151dd18ae2cf93e06152be12d}{Is\+Disabled}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest zablokowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a7b35ed48b6e6bae4a1385c7c712bd99f}\label{classtfp_1_1_input_area_a7b35ed48b6e6bae4a1385c7c712bd99f}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a7b35ed48b6e6bae4a1385c7c712bd99f}{Set\+Active}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia obszar jako aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_ac962a42ba6a47804eae2fd98d7d30d3f}\label{classtfp_1_1_input_area_ac962a42ba6a47804eae2fd98d7d30d3f}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_ac962a42ba6a47804eae2fd98d7d30d3f}{Set\+Disabled}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wylacza dzialane obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a432ae211e90f00df47213e1137a8bffd}\label{classtfp_1_1_input_area_a432ae211e90f00df47213e1137a8bffd}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a432ae211e90f00df47213e1137a8bffd}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtfp_1_1_input_area}{Input\+Area}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_adaebcf5227487eb99fa73675c3972f11}\label{classtfp_1_1_input_area_adaebcf5227487eb99fa73675c3972f11}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_adaebcf5227487eb99fa73675c3972f11}{Move}} (sf\+::\+Vector2f Distance)
+\begin{DoxyCompactList}\small\item\em Przesuwanie obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_aa240ec0c36f47fd367ef090a6536603a}\label{classtfp_1_1_input_area_aa240ec0c36f47fd367ef090a6536603a}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_aa240ec0c36f47fd367ef090a6536603a}{Set\+Position}} (sf\+::\+Vector2f Position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycje obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a84e5e2ab6f6a7d4dd829385baed22e9e}\label{classtfp_1_1_input_area_a84e5e2ab6f6a7d4dd829385baed22e9e}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a84e5e2ab6f6a7d4dd829385baed22e9e}{Set\+Position}} (float PositionX, float PositionY)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycje obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a3eed53b200f26c41388d2a5f72d67686}\label{classtfp_1_1_input_area_a3eed53b200f26c41388d2a5f72d67686}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a3eed53b200f26c41388d2a5f72d67686}{Set\+Size}} (sf\+::\+Vector2f Size, bool Relative)
+\begin{DoxyCompactList}\small\item\em Ustaawia rozmiar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtfp_1_1_input_area_ab37ba94e3de8df626cf8d48701921fe7}{Send\+Event}} (sf\+::\+Event \&Event)
+\begin{DoxyCompactList}\small\item\em Wysyla event. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a4cc1c009baad9120f4b52768c6e7562b}\label{classtfp_1_1_input_area_a4cc1c009baad9120f4b52768c6e7562b}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a4cc1c009baad9120f4b52768c6e7562b}{Set\+Text}} (std\+::string Text)
+\begin{DoxyCompactList}\small\item\em Ustawia tekst obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a8ea6103187dc1d824c3c70d4fd5dc2aa}\label{classtfp_1_1_input_area_a8ea6103187dc1d824c3c70d4fd5dc2aa}} 
+std\+::string \& \mbox{\hyperlink{classtfp_1_1_input_area_a8ea6103187dc1d824c3c70d4fd5dc2aa}{Get\+Text}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca tekst obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_aa7367df3ffa653430a7d98982e40e348}\label{classtfp_1_1_input_area_aa7367df3ffa653430a7d98982e40e348}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ \mbox{\hyperlink{classtfp_1_1_input_area_aa7367df3ffa653430a7d98982e40e348}{Get\+Game\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca uchwyt na gre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a54f523f378d4cd2410e5c2a81d8dd9f6}\label{classtfp_1_1_input_area_a54f523f378d4cd2410e5c2a81d8dd9f6}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_input_area_a54f523f378d4cd2410e5c2a81d8dd9f6}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca pozycje area. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a99ca49b8d3e1546c6821bd00d41c5755}\label{classtfp_1_1_input_area_a99ca49b8d3e1546c6821bd00d41c5755}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_input_area_a99ca49b8d3e1546c6821bd00d41c5755}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar area. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_aa01c74edc35e67ec1bced098f11f6f69}\label{classtfp_1_1_input_area_aa01c74edc35e67ec1bced098f11f6f69}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_aa01c74edc35e67ec1bced098f11f6f69}{Set\+Input\+Type}} (tfp\+::\+Text\+Type Input\+Type)
+\begin{DoxyCompactList}\small\item\em Ustawia tryb wpisywanych znakow. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a88d4061b723c7b1ee9a2d50f568828ff}\label{classtfp_1_1_input_area_a88d4061b723c7b1ee9a2d50f568828ff}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a88d4061b723c7b1ee9a2d50f568828ff}{Set\+Key\+Config\+Action\+Name}} (std\+::string Name)
+\begin{DoxyCompactList}\small\item\em Ustawia event klawisza jesli jest to Text\+Type\+Key. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_input_area_a4a689f25bbd5a836bdb597a59659320f}\label{classtfp_1_1_input_area_a4a689f25bbd5a836bdb597a59659320f}} 
+void \mbox{\hyperlink{classtfp_1_1_input_area_a4a689f25bbd5a836bdb597a59659320f}{Set\+Text\+Max\+Length}} (int Length)
+\begin{DoxyCompactList}\small\item\em Ustawia maksymalna ilosc znakow do wpisania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_input_area_ab37ba94e3de8df626cf8d48701921fe7}\label{classtfp_1_1_input_area_ab37ba94e3de8df626cf8d48701921fe7}} 
+\index{tfp\+::\+Input\+Area@{tfp\+::\+Input\+Area}!Send\+Event@{Send\+Event}}
+\index{Send\+Event@{Send\+Event}!tfp\+::\+Input\+Area@{tfp\+::\+Input\+Area}}
+\subsubsection{\texorpdfstring{Send\+Event()}{SendEvent()}}
+{\footnotesize\ttfamily void tfp\+::\+Input\+Area\+::\+Send\+Event (\begin{DoxyParamCaption}\item[{sf\+::\+Event \&}]{Event }\end{DoxyParamCaption})}
+
+
+
+Wysyla event. 
+
+Nic 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+area.\+hpp\item 
+area.\+cpp\end{DoxyCompactItemize}

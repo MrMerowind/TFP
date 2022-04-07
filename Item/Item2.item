@@ -1,0 +1,9 @@
+TexturePath: Graphics/Item/Item2.png
+Name: "Talisman"
+Type: Accessory
+MaximumQuantity: 1
+RequiredLevel: 12
+Strength: 45
+Vitality: 789
+Evasion: 2
+Intelligence: 142

@@ -1,0 +1,56 @@
+\hypertarget{classtfp_1_1_dragable_area}{}\section{tfp\+:\+:Dragable\+Area Class Reference}
+\label{classtfp_1_1_dragable_area}\index{tfp\+::\+Dragable\+Area@{tfp\+::\+Dragable\+Area}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a45f053c1097a1b98d077b155e19840e0}\label{classtfp_1_1_dragable_area_a45f053c1097a1b98d077b155e19840e0}} 
+\mbox{\hyperlink{classtfp_1_1_dragable_area_a45f053c1097a1b98d077b155e19840e0}{Dragable\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bez parametru wymaga uzycia funkcji \mbox{\hyperlink{classtfp_1_1_dragable_area_a3142a5b247faf918af0b2bbc557707db}{Reset()}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a093621d902ca03b14c499d7d3b9a45ac}\label{classtfp_1_1_dragable_area_a093621d902ca03b14c499d7d3b9a45ac}} 
+\mbox{\hyperlink{classtfp_1_1_dragable_area_a093621d902ca03b14c499d7d3b9a45ac}{Dragable\+Area}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Konstruktor z parametrami. Jesli Handle = nullptr nalezy uzyc \mbox{\hyperlink{classtfp_1_1_dragable_area_a8b699f79826c5225ffe3e58e2ebda12a}{Set\+Game\+Handle()}};. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_ade01cf321c7f81ce585addb89ed06919}\label{classtfp_1_1_dragable_area_ade01cf321c7f81ce585addb89ed06919}} 
+\mbox{\hyperlink{classtfp_1_1_dragable_area_ade01cf321c7f81ce585addb89ed06919}{$\sim$\+Dragable\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a3142a5b247faf918af0b2bbc557707db}\label{classtfp_1_1_dragable_area_a3142a5b247faf918af0b2bbc557707db}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a3142a5b247faf918af0b2bbc557707db}{Reset}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Resetuje rozmiar i pozycje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a1cd099aa0da737d1497e15d65c215ff6}\label{classtfp_1_1_dragable_area_a1cd099aa0da737d1497e15d65c215ff6}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a1cd099aa0da737d1497e15d65c215ff6}{Check\+Active\+System}} ()
+\begin{DoxyCompactList}\small\item\em Tylko do Button\+Global\+List. Sprawdza czy obszar zostal aktywowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a8d768756ed7fe3184e54c53967c6b6da}\label{classtfp_1_1_dragable_area_a8d768756ed7fe3184e54c53967c6b6da}} 
+const bool \mbox{\hyperlink{classtfp_1_1_dragable_area_a8d768756ed7fe3184e54c53967c6b6da}{Is\+Active}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a49875c6c9c67aced70cbdf5e5b2cec75}\label{classtfp_1_1_dragable_area_a49875c6c9c67aced70cbdf5e5b2cec75}} 
+const bool \& \mbox{\hyperlink{classtfp_1_1_dragable_area_a49875c6c9c67aced70cbdf5e5b2cec75}{Is\+Disabled}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest zablokowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a94fb0516e10190084215ab8db4d37b61}\label{classtfp_1_1_dragable_area_a94fb0516e10190084215ab8db4d37b61}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a94fb0516e10190084215ab8db4d37b61}{Set\+Active}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia obszar jako aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a1890d67de00cadb22cf64b8960f65eb4}\label{classtfp_1_1_dragable_area_a1890d67de00cadb22cf64b8960f65eb4}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a1890d67de00cadb22cf64b8960f65eb4}{Set\+Disabled}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wylacza dzialane obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a8b699f79826c5225ffe3e58e2ebda12a}\label{classtfp_1_1_dragable_area_a8b699f79826c5225ffe3e58e2ebda12a}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a8b699f79826c5225ffe3e58e2ebda12a}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Dragable. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_accb4f33f1ce170e33fcc35dcece72963}\label{classtfp_1_1_dragable_area_accb4f33f1ce170e33fcc35dcece72963}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_accb4f33f1ce170e33fcc35dcece72963}{Move}} (sf\+::\+Vector2f Distance)
+\begin{DoxyCompactList}\small\item\em Przesuwanie obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a03f05c8bdfbb80d53ecb1f437e52ea04}\label{classtfp_1_1_dragable_area_a03f05c8bdfbb80d53ecb1f437e52ea04}} 
+void \mbox{\hyperlink{classtfp_1_1_dragable_area_a03f05c8bdfbb80d53ecb1f437e52ea04}{Set\+Position}} (sf\+::\+Vector2f Position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycje obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a3bf6adac8b6c43d2cb0d20a5bae34bc7}\label{classtfp_1_1_dragable_area_a3bf6adac8b6c43d2cb0d20a5bae34bc7}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ \mbox{\hyperlink{classtfp_1_1_dragable_area_a3bf6adac8b6c43d2cb0d20a5bae34bc7}{Get\+Game\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca uchwyt na gre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_ab6c1e015b34271a22cef709bb8041218}\label{classtfp_1_1_dragable_area_ab6c1e015b34271a22cef709bb8041218}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_dragable_area_ab6c1e015b34271a22cef709bb8041218}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca pozycje area. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_dragable_area_a7f936c9b861f023899adf8bf5b0a8cb8}\label{classtfp_1_1_dragable_area_a7f936c9b861f023899adf8bf5b0a8cb8}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_dragable_area_a7f936c9b861f023899adf8bf5b0a8cb8}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar area. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+area.\+hpp\item 
+area.\+cpp\end{DoxyCompactItemize}

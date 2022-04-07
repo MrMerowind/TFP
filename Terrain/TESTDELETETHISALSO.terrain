@@ -1,0 +1,7 @@
+TexturePath: Graphics/Terrain/Pavement.png
+TexturePositionHorizontal: 0
+TexturePositionVertical: 0
+TexturePositionHorizontalEnd: 7
+TexturePositionVerticalEnd: 7
+MovingSpeed: 1.25
+Colider: false

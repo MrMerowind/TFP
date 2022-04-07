@@ -1,0 +1,6 @@
+GifPath: Graphics/Animation/Object/test3.png
+SecondsPerFrame: 2.0
+FrameWidth: 400
+FrameHeight: 400
+Frames: 1
+Collider: false

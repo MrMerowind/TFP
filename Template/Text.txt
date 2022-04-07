@@ -1,0 +1,22 @@
+#Smoky black
+#Color: rgba(20, 12, 9, 255)
+#Eerie black
+#Color: rgba(31, 25, 21, 255)
+#Aurometalsaurus
+#Color: rgba(112, 141, 129, 255)
+#Dark sea green
+#Color: rgba(148, 174, 137, 255)
+#Timberwolf
+#Color: rgba(220, 215, 184, 255)
+#
+#Color: rgba(244, 247, 190, 255)
+
+FontPath: Fonts/RobotoCondensed-BoldItalic.ttf
+Color: rgba(255, 255, 255, 255)
+OutlineColor: rgba(0, 0, 0, 255)
+OutlineThickness: 3.5
+CharacterSize: 60
+Style: Underlined
+#Style: Regular
+#Style: Italic
+#Style: StrikeThrough

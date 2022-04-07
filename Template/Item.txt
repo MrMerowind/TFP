@@ -1,0 +1,119 @@
+---[ Material ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Small health potion"
+Type: Material
+MaximumQuantity: 500
+RequiredLevel: 0
+
+---[ Potion ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Small health potion"
+Type: Potion
+MaximumQuantity: 500
+RequiredLevel: 0
+HealthRegen: 500
+ManaRegen: 0
+
+---[ Scroll ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "City teleport scroll"
+Type: Scroll
+MaximumQuantity: 5
+RequiredLevel: 0
+SpellName: Unknown
+
+---[ Bag ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Basic bag"
+Type: Bag
+MaximumQuantity: 1
+RequiredLevel: 0
+InventorySizeWidth: 8
+InventorySizeHeight: 4
+
+---[ Weapon ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Fire sword"
+Type: Weapon
+MaximumQuantity: 1
+RequiredLevel: 0
+MinimumDamage: 3
+MaximumDamage: 5
+AttackSpeed: 2.5
+LifeSteal: 0.0
+IceElement: 0
+DarknessElement: 0
+FireElement: 22
+WaterElement: 0
+LightElement: 0
+EarthElement: 0
+
+---[ Armor ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Heavy water armor"
+Type: Armor
+MaximumQuantity: 1
+RequiredLevel: 0
+Vitality: 150
+IceResistance: 0
+DarknessResistance: 0
+FireResistance: 0
+WaterResistance: 20
+LightResistance: 0
+EarthResistance: 0
+
+---[ Helmet ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Basic earth helmet"
+Type: Helmet
+MaximumQuantity: 1
+RequiredLevel: 0
+Vitality: 2
+IceResistance: 0
+DarknessResistance: 0
+FireResistance: 0
+WaterResistance: 0
+LightResistance: 0
+EarthResistance: 5
+---[ Boots ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Boots of speed"
+Type: Boots
+MaximumQuantity: 1
+RequiredLevel: 0
+MovementSpeed: 1.0
+
+---[ Accessory ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Talisman"
+Type: Accessory
+MaximumQuantity: 1
+RequiredLevel: 0
+Strength: 0
+Vitality: 0
+Evasion: 0
+Intelligence: 0
+
+---[ Ring ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Ring of fire"
+Type: Ring
+MaximumQuantity: 1
+RequiredLevel: 0
+Strength: 0
+Vitality: 0
+Evasion: 0
+Intelligence: 0
+
+---[ Gloves ]---
+TexturePath: Graphics/Item/Item1.png
+Name: "Magma gloves"
+Type: Gloves
+MaximumQuantity: 1
+RequiredLevel: 0
+IceElement: 0
+DarknessElement: 0
+FireElement: 20
+WaterElement: 0
+LightElement: 0
+EarthElement: 20

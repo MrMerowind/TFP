@@ -1,0 +1,7 @@
+TexturePath: Graphics/Item/Item8.png
+Name: "Basic bag"
+Type: Bag
+MaximumQuantity: 1
+RequiredLevel: 0
+InventorySizeWidth: 8
+InventorySizeHeight: 4

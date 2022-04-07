@@ -1,0 +1,56 @@
+\hypertarget{classtfp_1_1_focus_area}{}\section{tfp\+:\+:Focus\+Area Class Reference}
+\label{classtfp_1_1_focus_area}\index{tfp\+::\+Focus\+Area@{tfp\+::\+Focus\+Area}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_af46f704ef1548e51e678e134f8f92ec5}\label{classtfp_1_1_focus_area_af46f704ef1548e51e678e134f8f92ec5}} 
+\mbox{\hyperlink{classtfp_1_1_focus_area_af46f704ef1548e51e678e134f8f92ec5}{Focus\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bez parametru wymaga uzycia funkcji \mbox{\hyperlink{classtfp_1_1_focus_area_a23c05868f070600b214c113e3705b4c9}{Reset()}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_ad9989ba0ff51d9c07d7581b93714eb7f}\label{classtfp_1_1_focus_area_ad9989ba0ff51d9c07d7581b93714eb7f}} 
+\mbox{\hyperlink{classtfp_1_1_focus_area_ad9989ba0ff51d9c07d7581b93714eb7f}{Focus\+Area}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Konstruktor z parametrami. Jesli Handle = nullptr nalezy uzyc Set\+Game\+Handle();. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a80671cf059958c45fe92d9878bbc74a2}\label{classtfp_1_1_focus_area_a80671cf059958c45fe92d9878bbc74a2}} 
+\mbox{\hyperlink{classtfp_1_1_focus_area_a80671cf059958c45fe92d9878bbc74a2}{$\sim$\+Focus\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a23c05868f070600b214c113e3705b4c9}\label{classtfp_1_1_focus_area_a23c05868f070600b214c113e3705b4c9}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_a23c05868f070600b214c113e3705b4c9}{Reset}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Resetuje rozmiar i pozycje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a8845bdc93312122866358dde785c9520}\label{classtfp_1_1_focus_area_a8845bdc93312122866358dde785c9520}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_a8845bdc93312122866358dde785c9520}{Check\+Active\+System}} ()
+\begin{DoxyCompactList}\small\item\em Tylko do Button\+Global\+List. Sprawdza czy obszar zostal aktywowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a688762f6b1eaaea4adb66db42ea7ec75}\label{classtfp_1_1_focus_area_a688762f6b1eaaea4adb66db42ea7ec75}} 
+const bool \mbox{\hyperlink{classtfp_1_1_focus_area_a688762f6b1eaaea4adb66db42ea7ec75}{Is\+Active}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a1f96773c225358d61f052781fa94f119}\label{classtfp_1_1_focus_area_a1f96773c225358d61f052781fa94f119}} 
+const bool \& \mbox{\hyperlink{classtfp_1_1_focus_area_a1f96773c225358d61f052781fa94f119}{Is\+Disabled}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest zablokowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_aafb2d16bbd9559d94426423220a09881}\label{classtfp_1_1_focus_area_aafb2d16bbd9559d94426423220a09881}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_aafb2d16bbd9559d94426423220a09881}{Set\+Active}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia obszar jako aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_ad16347bcf04432d4b7273d8322245bf9}\label{classtfp_1_1_focus_area_ad16347bcf04432d4b7273d8322245bf9}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_ad16347bcf04432d4b7273d8322245bf9}{Set\+Disabled}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wylacza dzialane obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_aaf3a182051fbe50eefab80f05ab6a834}\label{classtfp_1_1_focus_area_aaf3a182051fbe50eefab80f05ab6a834}} 
+void {\bfseries Set\+Game\+Handle} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a5fa3c9facfc21e8d1cb42ac62cd39034}\label{classtfp_1_1_focus_area_a5fa3c9facfc21e8d1cb42ac62cd39034}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_a5fa3c9facfc21e8d1cb42ac62cd39034}{Set\+Position}} (sf\+::\+Vector2f New\+Position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_a0c6b2e7532797ca17daa7116c23f14d6}\label{classtfp_1_1_focus_area_a0c6b2e7532797ca17daa7116c23f14d6}} 
+void \mbox{\hyperlink{classtfp_1_1_focus_area_a0c6b2e7532797ca17daa7116c23f14d6}{Move}} (sf\+::\+Vector2f Distance)
+\begin{DoxyCompactList}\small\item\em Przesuwanie obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_ae9e1cd1259092103f03940c16a58e2ef}\label{classtfp_1_1_focus_area_ae9e1cd1259092103f03940c16a58e2ef}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ \mbox{\hyperlink{classtfp_1_1_focus_area_ae9e1cd1259092103f03940c16a58e2ef}{Get\+Game\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca uchwyt na gre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_ab91af5b64947deae136419eae0d98986}\label{classtfp_1_1_focus_area_ab91af5b64947deae136419eae0d98986}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_focus_area_ab91af5b64947deae136419eae0d98986}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca pozycje area. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_focus_area_aa90b166b997ea1d1f1e9a208d9d1f219}\label{classtfp_1_1_focus_area_aa90b166b997ea1d1f1e9a208d9d1f219}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_focus_area_aa90b166b997ea1d1f1e9a208d9d1f219}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar area. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+area.\+hpp\item 
+area.\+cpp\end{DoxyCompactItemize}

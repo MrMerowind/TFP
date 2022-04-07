@@ -1,0 +1,5 @@
+TexturePath: Graphics/Terrain/YourMom.png
+TexturePositionHorizontal: 0
+TexturePositionVertical: 0
+MovingSpeed: 100.00
+Colider: false

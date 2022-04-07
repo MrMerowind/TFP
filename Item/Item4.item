@@ -1,0 +1,7 @@
+TexturePath: Graphics/Item/Item4.png
+Name: "Small mana potion"
+Type: Potion
+MaximumQuantity: 500
+RequiredLevel: 0
+HealthRegen: 1
+ManaRegen: 456

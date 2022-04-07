@@ -1,0 +1,6 @@
+TexturePath: Graphics/Item/Item3.png
+Name: "City teleport scroll"
+Type: Scroll
+MaximumQuantity: 50
+RequiredLevel: 0
+SpellName: Unknown

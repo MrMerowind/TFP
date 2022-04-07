@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheFulmanProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="System\;System\Header\;System\Source\;GameObjects\;GameObjects\Header\;GameObjects\Source\;Main\;Main\Header\;Main\Source\;Other\;Other\Header\;Other\Source\;Network\;Network\Header\;Network\Source\;SpecialEffects\;SpecialEffects\Header\;SpecialEffects\Source\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheFulmanProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option='-DTFP_DEBUG=&quot;1&quot;' />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="openal32" />
+					<Add library="jpeg" />
+					<Add library="freetype" />
+					<Add library="ws2_32" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+					<Add library="libcomdlg32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheFulmanProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option='-DTFP_RELEASE=&quot;1&quot;' />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-audio-s" />
+					<Add library="sfml-network-s" />
+					<Add library="sfml-system-s" />
+					<Add library="openal32" />
+					<Add library="jpeg" />
+					<Add library="freetype" />
+					<Add library="ws2_32" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add directory="C:/SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="animation.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="animation.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="area.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="area.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="backgroundimage.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="backgroundimage.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="button.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="button.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="camera.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="camera.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="character.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="character.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="characteranimation.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="characteranimation.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="chat.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="chat.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="classpredeclaration.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="client.cpp">
+			<Option virtualFolder="Network/Source/" />
+		</Unit>
+		<Unit filename="client.hpp">
+			<Option virtualFolder="Network/Header/" />
+		</Unit>
+		<Unit filename="clock.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="clock.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="commandblock.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="commandblock.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="datatypes.cpp">
+			<Option virtualFolder="Main/Source/" />
+		</Unit>
+		<Unit filename="datatypes.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="dateandtime.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="dateandtime.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="debug.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="debug.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="defines.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="filesystem.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="filesystem.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="font.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="font.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="functiontime.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="functiontime.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="game.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="game.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="gamemanager.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="gamemanager.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="generator.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="generator.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="globalobjects.cpp">
+			<Option virtualFolder="Main/Source/" />
+		</Unit>
+		<Unit filename="globalobjects.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="includes.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="interface.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="interface.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="interfaceffects.cpp">
+			<Option virtualFolder="SpecialEffects/Source/" />
+		</Unit>
+		<Unit filename="interfaceffects.hpp">
+			<Option virtualFolder="SpecialEffects/Header/" />
+		</Unit>
+		<Unit filename="item.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="item.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="keyconfiguration.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="keyconfiguration.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="language.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="language.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="loading.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="loading.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="Main/Source/" />
+		</Unit>
+		<Unit filename="map.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="map.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="mouse.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="mouse.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="notes.hpp">
+			<Option virtualFolder="Main/Header/" />
+		</Unit>
+		<Unit filename="pixelperfectcollision.cpp">
+			<Option virtualFolder="Other/Source/" />
+		</Unit>
+		<Unit filename="pixelperfectcollision.hpp">
+			<Option virtualFolder="Other/Header/" />
+		</Unit>
+		<Unit filename="popupwindow.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="popupwindow.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="rapidxml.hpp">
+			<Option virtualFolder="Other/Header/" />
+		</Unit>
+		<Unit filename="rapidxml_iterators.hpp">
+			<Option virtualFolder="Other/Header/" />
+		</Unit>
+		<Unit filename="rapidxml_print.hpp">
+			<Option virtualFolder="Other/Header/" />
+		</Unit>
+		<Unit filename="rapidxml_utils.hpp">
+			<Option virtualFolder="Other/Header/" />
+		</Unit>
+		<Unit filename="screen.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="screen.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="server.cpp">
+			<Option virtualFolder="Network/Source/" />
+		</Unit>
+		<Unit filename="server.hpp">
+			<Option virtualFolder="Network/Header/" />
+		</Unit>
+		<Unit filename="sprite.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="sprite.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="terrain.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="terrain.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Unit filename="text.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="text.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="textmanipulation.cpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="textmanipulation.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="tfpstl.hpp">
+			<Option virtualFolder="System/Header/" />
+		</Unit>
+		<Unit filename="tfpstlsource.hpp">
+			<Option virtualFolder="System/Source/" />
+		</Unit>
+		<Unit filename="window.cpp">
+			<Option virtualFolder="GameObjects/Source/" />
+		</Unit>
+		<Unit filename="window.hpp">
+			<Option virtualFolder="GameObjects/Header/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

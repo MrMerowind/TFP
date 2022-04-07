@@ -1,0 +1,5 @@
+TexturePath: Graphics/Item/Item9.png
+Name: "Pergamin"
+Type: Material
+MaximumQuantity: 500
+RequiredLevel: 0

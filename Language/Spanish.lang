@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<dictionary>
+	<translation original="Inventory">Inventario</translation>
+	<translation original="Map editor">Editor de mapas</translation>
+	<translation original="The Fulman Project - Game In Development">The Fulman Project - Juego en desarrollo</translation>
+	<translation original="Terrain picker">Recogedor de terreno</translation>
+	<translation original="Character">Personaje</translation>
+	<translation original="Loading fonts...">##############...</translation>
+	<translation original="Loading terrains...">############...</translation>
+	<translation original="Loading animations...">############...</translation>
+	<translation original="Initializing loading...">############...</translation>
+	<translation original="Next">Siguiente</translation>
+	<translation original="Previous">Anterior</translation>
+	<translation original="Options">##########</translation>
+	<translation original="Menu">########</translation>
+	<translation original="Controls">########</translation>
+	<translation original="Authors">########</translation>
+	<translation original="Exit">########</translation>
+	<translation original="Exit all">########</translation>
+	<translation original="Terrain">Terrain</translation>
+	<translation original="Objects">Objects</translation>
+	<translation original="Special">Special</translation>
+</dictionary>

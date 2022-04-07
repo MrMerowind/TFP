@@ -1,0 +1,15 @@
+TexturePath: Graphics/Item/Item6.png
+Name: "Earth book"
+Type: Weapon
+MaximumQuantity: 1
+RequiredLevel: 0
+MinimumDamage: 36
+MaximumDamage: 75
+AttackSpeed: 2.5
+LifeSteal: 0.0
+IceElement: 0
+DarknessElement: 0
+FireElement: 0
+WaterElement: 0
+LightElement: 0
+EarthElement: 15

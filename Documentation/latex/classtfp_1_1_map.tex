@@ -1,0 +1,193 @@
+\hypertarget{classtfp_1_1_map}{}\section{tfp\+:\+:Map Class Reference}
+\label{classtfp_1_1_map}\index{tfp\+::\+Map@{tfp\+::\+Map}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ae5e9a20788ab2ff4535460d99ff7fb6c}\label{classtfp_1_1_map_ae5e9a20788ab2ff4535460d99ff7fb6c}} 
+\mbox{\hyperlink{classtfp_1_1_map_ae5e9a20788ab2ff4535460d99ff7fb6c}{Map}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ae24ec4d4d2fc21921d43d9804bbd9d96}\label{classtfp_1_1_map_ae24ec4d4d2fc21921d43d9804bbd9d96}} 
+\mbox{\hyperlink{classtfp_1_1_map_ae24ec4d4d2fc21921d43d9804bbd9d96}{$\sim$\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ac7b5fb73c2988789b2dde5458014448a}\label{classtfp_1_1_map_ac7b5fb73c2988789b2dde5458014448a}} 
+bool \mbox{\hyperlink{classtfp_1_1_map_ac7b5fb73c2988789b2dde5458014448a}{Load\+Map}} (std\+::string \mbox{\hyperlink{classtfp_1_1_map_a0a22afd5614529f2e8d1f1fcc812233e}{Map\+Name}})
+\begin{DoxyCompactList}\small\item\em Wczytywanie mapy z Maps/$<$\+Map\+Name$>$.map. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classtfp_1_1_map_ac717f2886ffd75c4e40df02c41379eb5}{Save\+Map}} (std\+::string \mbox{\hyperlink{classtfp_1_1_map_a0a22afd5614529f2e8d1f1fcc812233e}{Map\+Name}})
+\begin{DoxyCompactList}\small\item\em Zapisywanie mapy do Maps/$<$\+Map\+Name$>$.map. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a056da797998341abcb3cce036d2533cf}\label{classtfp_1_1_map_a056da797998341abcb3cce036d2533cf}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a056da797998341abcb3cce036d2533cf}{Unload}} ()
+\begin{DoxyCompactList}\small\item\em Czyszczenie mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a805279d08dfe2a7ff59ab50d3e6a8870}\label{classtfp_1_1_map_a805279d08dfe2a7ff59ab50d3e6a8870}} 
+const int \& \mbox{\hyperlink{classtfp_1_1_map_a805279d08dfe2a7ff59ab50d3e6a8870}{Get\+Width}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca szerokosc mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_abe038a5d292ace00bd8ccaa8332b8fb1}\label{classtfp_1_1_map_abe038a5d292ace00bd8ccaa8332b8fb1}} 
+const int \& \mbox{\hyperlink{classtfp_1_1_map_abe038a5d292ace00bd8ccaa8332b8fb1}{Get\+Height}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca wysokosc mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ac3a06a067ae5f14a2b199167d4383525}\label{classtfp_1_1_map_ac3a06a067ae5f14a2b199167d4383525}} 
+const sf\+::\+Vector2i \mbox{\hyperlink{classtfp_1_1_map_ac3a06a067ae5f14a2b199167d4383525}{Get\+Pixel\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar mapy w pixelach. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtfp_1_1_map_af4b5ebe9c877f1f9ae2dac012ea285a0}{Resize}} (int \mbox{\hyperlink{classtfp_1_1_map_a38f784e3e3c4f02f86b161dd5f83a153}{Width}}, int \mbox{\hyperlink{classtfp_1_1_map_a4524a7be70f4b63b912a511f5b2af38c}{Height}})
+\begin{DoxyCompactList}\small\item\em Zmienia rozmiar mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a362442a982c3ce75f7de1dea92f43a40}\label{classtfp_1_1_map_a362442a982c3ce75f7de1dea92f43a40}} 
+const bool \mbox{\hyperlink{classtfp_1_1_map_a362442a982c3ce75f7de1dea92f43a40}{Is\+Loaded}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy mapa jest zaladowana. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ad36ad3e4718214ea6eba8305a0fc3dff}\label{classtfp_1_1_map_ad36ad3e4718214ea6eba8305a0fc3dff}} 
+void \mbox{\hyperlink{classtfp_1_1_map_ad36ad3e4718214ea6eba8305a0fc3dff}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Ustawia uchwyt gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_afa31d2984466296de8b186370ff4522b}\label{classtfp_1_1_map_afa31d2984466296de8b186370ff4522b}} 
+void \mbox{\hyperlink{classtfp_1_1_map_afa31d2984466296de8b186370ff4522b}{Set\+Terrain}} (std\+::string Terrain\+Name, int PositionX, int PositionY)
+\begin{DoxyCompactList}\small\item\em Ustawianie terenu w danym miejscu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ac5b40a2462e28c61a7de8c2e6c41a4d6}\label{classtfp_1_1_map_ac5b40a2462e28c61a7de8c2e6c41a4d6}} 
+void \mbox{\hyperlink{classtfp_1_1_map_ac5b40a2462e28c61a7de8c2e6c41a4d6}{Set\+Terrain\+Preview}} (std\+::string Terrain\+Name, int PositionX, int PositionY)
+\begin{DoxyCompactList}\small\item\em Ustawianie podgladu terenu w danym miejscu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a8c6483b21e92d3ce135426c53ee79c72}\label{classtfp_1_1_map_a8c6483b21e92d3ce135426c53ee79c72}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a8c6483b21e92d3ce135426c53ee79c72}{Set\+Terrain\+No\+Pause}} (std\+::string Terrain\+Name, int PositionX, int PositionY)
+\begin{DoxyCompactList}\small\item\em Ustawianie terenu w danym miejscu bez pauzy zapisu historii (do cofania) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a03a9549a5e0aaa1a53244e98ed200b2e}\label{classtfp_1_1_map_a03a9549a5e0aaa1a53244e98ed200b2e}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a03a9549a5e0aaa1a53244e98ed200b2e}{Set\+Terrain\+Pause}} ()
+\begin{DoxyCompactList}\small\item\em Ustawia pauze w danym miejscu historii. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ad35c570a532f25705d12ab6f260bfbe4}\label{classtfp_1_1_map_ad35c570a532f25705d12ab6f260bfbe4}} 
+void \mbox{\hyperlink{classtfp_1_1_map_ad35c570a532f25705d12ab6f260bfbe4}{Set\+Terrain\+Rect}} (std\+::string Terrain\+Name, sf\+::\+Vector2i Start, sf\+::\+Vector2i End, bool Only\+Same\+Terrain=false)
+\begin{DoxyCompactList}\small\item\em Ustawia prostokat terenu w danym miejscu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_af8d46a3a90c946037f9dae5041f9ca74}\label{classtfp_1_1_map_af8d46a3a90c946037f9dae5041f9ca74}} 
+void \mbox{\hyperlink{classtfp_1_1_map_af8d46a3a90c946037f9dae5041f9ca74}{Undo\+Terrain\+Changes}} ()
+\begin{DoxyCompactList}\small\item\em Cofa ostatnie zmiany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a89a0512592eab40c392276ca17b93598}\label{classtfp_1_1_map_a89a0512592eab40c392276ca17b93598}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a89a0512592eab40c392276ca17b93598}{Redo\+Terrain\+Changes}} ()
+\begin{DoxyCompactList}\small\item\em Cofa cofniecie ostatnich zmian. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a573230d89656163dd763fdb72d3b5074}\label{classtfp_1_1_map_a573230d89656163dd763fdb72d3b5074}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a573230d89656163dd763fdb72d3b5074}{Set\+Terrain\+Rect\+Preview}} (std\+::string Terrain\+Name, sf\+::\+Vector2i Start, sf\+::\+Vector2i End, bool Only\+Same\+Terrain=false)
+\begin{DoxyCompactList}\small\item\em Ustawia podglad prostokata terenu w danym miejscu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a4c14d8a8ae6ef687565255e663699bab}\label{classtfp_1_1_map_a4c14d8a8ae6ef687565255e663699bab}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a4c14d8a8ae6ef687565255e663699bab}{Set\+Terrain\+Rect\+Preview}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wlacza lub wylacza podglad. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a9fde19f7d79a41f95d5528571e44c770}\label{classtfp_1_1_map_a9fde19f7d79a41f95d5528571e44c770}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a9fde19f7d79a41f95d5528571e44c770}{Set\+Terrain\+Preview}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wlacza lub wylacza podglad. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a6e825aecc6ad7000341879a30063a132}\label{classtfp_1_1_map_a6e825aecc6ad7000341879a30063a132}} 
+void \mbox{\hyperlink{classtfp_1_1_map_a6e825aecc6ad7000341879a30063a132}{Set\+Map\+Name}} (std\+::string New\+Name)
+\begin{DoxyCompactList}\small\item\em Ustawia nazwe mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a9b33c0256cfa31d908e14f0f04f9bfcc}\label{classtfp_1_1_map_a9b33c0256cfa31d908e14f0f04f9bfcc}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_a9b33c0256cfa31d908e14f0f04f9bfcc}{Get\+Map\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca nazwe mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ab6c370f5e0789fce1ca94ddad4dd05ae}\label{classtfp_1_1_map_ab6c370f5e0789fce1ca94ddad4dd05ae}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_ab6c370f5e0789fce1ca94ddad4dd05ae}{Get\+Terrain\+Name}} (int Horizontal\+Position, int Vertical\+Position)
+\begin{DoxyCompactList}\small\item\em Zwraca nazwe terenu na danej pozycji. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_ad1caa25f32dbd7712be33c3cdb7017c9}{Get\+Terrain\+Real\+Name}} (int Horizontal\+Position, int Vertical\+Position)
+\begin{DoxyCompactList}\small\item\em Zwraca nazwe terenu na danej pozycji bez podgladu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ad438b84f767f9e8e065de3e32e3c9419}\label{classtfp_1_1_map_ad438b84f767f9e8e065de3e32e3c9419}} 
+std\+::multiset$<$ \mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} $>$ \& \mbox{\hyperlink{classtfp_1_1_map_ad438b84f767f9e8e065de3e32e3c9419}{Get\+Object\+List}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca liste obiektow. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_aa7e99b8fe950c22c21d2ce6953ff6b55}\label{classtfp_1_1_map_aa7e99b8fe950c22c21d2ce6953ff6b55}} 
+std\+::vector$<$ \mbox{\hyperlink{structtfp_1_1_item}{tfp\+::\+Item}} $>$ \mbox{\hyperlink{classtfp_1_1_map_aa7e99b8fe950c22c21d2ce6953ff6b55}{Items\+On\+Ground}}
+\begin{DoxyCompactList}\small\item\em Itemy na mapie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a38f784e3e3c4f02f86b161dd5f83a153}\label{classtfp_1_1_map_a38f784e3e3c4f02f86b161dd5f83a153}} 
+int \mbox{\hyperlink{classtfp_1_1_map_a38f784e3e3c4f02f86b161dd5f83a153}{Width}}
+\begin{DoxyCompactList}\small\item\em Szerokosc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a4524a7be70f4b63b912a511f5b2af38c}\label{classtfp_1_1_map_a4524a7be70f4b63b912a511f5b2af38c}} 
+int \mbox{\hyperlink{classtfp_1_1_map_a4524a7be70f4b63b912a511f5b2af38c}{Height}}
+\begin{DoxyCompactList}\small\item\em Wysokosc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a663e663242a11d668b0ba6e0519ef5de}\label{classtfp_1_1_map_a663e663242a11d668b0ba6e0519ef5de}} 
+std\+::string $\ast$$\ast$ \mbox{\hyperlink{classtfp_1_1_map_a663e663242a11d668b0ba6e0519ef5de}{Terrain}}
+\begin{DoxyCompactList}\small\item\em Dwuwymiarowa tablica zawierajaca nazwy terenow \mbox{[}Wysokosc\mbox{]}\mbox{[}Szerokosc\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_adb9163e28f8b4d997d203619d04cb0d9}\label{classtfp_1_1_map_adb9163e28f8b4d997d203619d04cb0d9}} 
+std\+::multiset$<$ \mbox{\hyperlink{classtfp_1_1_animation}{tfp\+::\+Animation}} $>$ \mbox{\hyperlink{classtfp_1_1_map_adb9163e28f8b4d997d203619d04cb0d9}{Object\+List}}
+\begin{DoxyCompactList}\small\item\em Textury do odczytania w Terrain\+List. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a0a22afd5614529f2e8d1f1fcc812233e}\label{classtfp_1_1_map_a0a22afd5614529f2e8d1f1fcc812233e}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_a0a22afd5614529f2e8d1f1fcc812233e}{Map\+Name}}
+\begin{DoxyCompactList}\small\item\em Nazwa mapy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a354ae3232bda03ce5a154a486ac99f8a}\label{classtfp_1_1_map_a354ae3232bda03ce5a154a486ac99f8a}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ {\bfseries Game\+Handle}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a158f33c2aeb1f1f64e11462e213bb8c0}\label{classtfp_1_1_map_a158f33c2aeb1f1f64e11462e213bb8c0}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_a158f33c2aeb1f1f64e11462e213bb8c0}{Preview\+Terrain\+Name}}
+\begin{DoxyCompactList}\small\item\em Podglad zmienianego terenu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a4a1d858307ab92798eaaf0bb2f2e621b}\label{classtfp_1_1_map_a4a1d858307ab92798eaaf0bb2f2e621b}} 
+std\+::string {\bfseries Preview\+Terrain\+Name\+Before}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a1489b9d4951a3ae8a71d7454750d0d39}\label{classtfp_1_1_map_a1489b9d4951a3ae8a71d7454750d0d39}} 
+sf\+::\+Vector2i {\bfseries Preview\+Start}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a1e681d3f2fe6fc80ccfebf74e3cf01a8}\label{classtfp_1_1_map_a1e681d3f2fe6fc80ccfebf74e3cf01a8}} 
+sf\+::\+Vector2i {\bfseries Preview\+End}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ade53390a0da95d2dc76e2d10c4545393}\label{classtfp_1_1_map_ade53390a0da95d2dc76e2d10c4545393}} 
+bool {\bfseries Preview}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_aee940bbba1172a4e3b131a7cf5b29be5}\label{classtfp_1_1_map_aee940bbba1172a4e3b131a7cf5b29be5}} 
+bool {\bfseries Only\+Same}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_aa3a4b979363a33b3ff8cae1f562c023f}\label{classtfp_1_1_map_aa3a4b979363a33b3ff8cae1f562c023f}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_map_aa3a4b979363a33b3ff8cae1f562c023f}{Preview\+Terrain\+Name\+Single}}
+\begin{DoxyCompactList}\small\item\em Podglad pojedynczego terenu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ac15d2db0bf8ecce1b3d70afffad885d8}\label{classtfp_1_1_map_ac15d2db0bf8ecce1b3d70afffad885d8}} 
+sf\+::\+Vector2i {\bfseries Preview\+Single\+Position}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a125f99aa7d1dbb5b89351f75aefeaa68}\label{classtfp_1_1_map_a125f99aa7d1dbb5b89351f75aefeaa68}} 
+bool {\bfseries Preview\+Single}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_map_a0362b689ce7065ff2eb7d8e902a7aa2f}\label{classtfp_1_1_map_a0362b689ce7065ff2eb7d8e902a7aa2f}} 
+std\+::stack$<$ \mbox{\hyperlink{structtfp_1_1_terrain_position_swap_save}{tfp\+::\+Terrain\+Position\+Swap\+Save}} $>$ \mbox{\hyperlink{classtfp_1_1_map_a0362b689ce7065ff2eb7d8e902a7aa2f}{Terrain\+Change\+Stack}}
+\begin{DoxyCompactList}\small\item\em Stos zmian w mapie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_map_ab2731477bb7c93d5b4359573b95b1b05}\label{classtfp_1_1_map_ab2731477bb7c93d5b4359573b95b1b05}} 
+std\+::stack$<$ \mbox{\hyperlink{structtfp_1_1_terrain_position_swap_save}{tfp\+::\+Terrain\+Position\+Swap\+Save}} $>$ {\bfseries Terrain\+Change\+Stack\+Redo}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_map_ad1caa25f32dbd7712be33c3cdb7017c9}\label{classtfp_1_1_map_ad1caa25f32dbd7712be33c3cdb7017c9}} 
+\index{tfp\+::\+Map@{tfp\+::\+Map}!Get\+Terrain\+Real\+Name@{Get\+Terrain\+Real\+Name}}
+\index{Get\+Terrain\+Real\+Name@{Get\+Terrain\+Real\+Name}!tfp\+::\+Map@{tfp\+::\+Map}}
+\subsubsection{\texorpdfstring{Get\+Terrain\+Real\+Name()}{GetTerrainRealName()}}
+{\footnotesize\ttfamily std\+::string tfp\+::\+Map\+::\+Get\+Terrain\+Real\+Name (\begin{DoxyParamCaption}\item[{int}]{Horizontal\+Position,  }\item[{int}]{Vertical\+Position }\end{DoxyParamCaption})}
+
+
+
+Zwraca nazwe terenu na danej pozycji bez podgladu. 
+
+Odwrotnie sa tu indeksy. \mbox{\Hypertarget{classtfp_1_1_map_af4b5ebe9c877f1f9ae2dac012ea285a0}\label{classtfp_1_1_map_af4b5ebe9c877f1f9ae2dac012ea285a0}} 
+\index{tfp\+::\+Map@{tfp\+::\+Map}!Resize@{Resize}}
+\index{Resize@{Resize}!tfp\+::\+Map@{tfp\+::\+Map}}
+\subsubsection{\texorpdfstring{Resize()}{Resize()}}
+{\footnotesize\ttfamily void tfp\+::\+Map\+::\+Resize (\begin{DoxyParamCaption}\item[{int}]{Width,  }\item[{int}]{Height }\end{DoxyParamCaption})}
+
+
+
+Zmienia rozmiar mapy. 
+
+Tworzenie nowego terenu
+
+Zerowanie mapy
+
+Przepisywanie starej mapy
+
+Usuwanie starej mapy \mbox{\Hypertarget{classtfp_1_1_map_ac717f2886ffd75c4e40df02c41379eb5}\label{classtfp_1_1_map_ac717f2886ffd75c4e40df02c41379eb5}} 
+\index{tfp\+::\+Map@{tfp\+::\+Map}!Save\+Map@{Save\+Map}}
+\index{Save\+Map@{Save\+Map}!tfp\+::\+Map@{tfp\+::\+Map}}
+\subsubsection{\texorpdfstring{Save\+Map()}{SaveMap()}}
+{\footnotesize\ttfamily bool tfp\+::\+Map\+::\+Save\+Map (\begin{DoxyParamCaption}\item[{std\+::string}]{Map\+Name }\end{DoxyParamCaption})}
+
+
+
+Zapisywanie mapy do Maps/$<$\+Map\+Name$>$.map. 
+
+Sprawdzenie czy mapa jest poprawnie stworzona
+
+Otwieranie pliku
+
+Zapsywanie do pliku mapy
+
+Zamykanie pliku
+
+Informacja o udanym zapisie 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+map.\+hpp\item 
+map.\+cpp\end{DoxyCompactItemize}

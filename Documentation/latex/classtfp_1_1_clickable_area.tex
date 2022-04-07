@@ -1,0 +1,84 @@
+\hypertarget{classtfp_1_1_clickable_area}{}\section{tfp\+:\+:Clickable\+Area Class Reference}
+\label{classtfp_1_1_clickable_area}\index{tfp\+::\+Clickable\+Area@{tfp\+::\+Clickable\+Area}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a430e91404b609c35d883c2259ea34fdf}\label{classtfp_1_1_clickable_area_a430e91404b609c35d883c2259ea34fdf}} 
+\mbox{\hyperlink{classtfp_1_1_clickable_area_a430e91404b609c35d883c2259ea34fdf}{Clickable\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a7352d983d6b4847ba14dbf934154c578}\label{classtfp_1_1_clickable_area_a7352d983d6b4847ba14dbf934154c578}} 
+\mbox{\hyperlink{classtfp_1_1_clickable_area_a7352d983d6b4847ba14dbf934154c578}{Clickable\+Area}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Konstruktor z parametrami. Jesli Handle = nullptr nalezy uzyc \mbox{\hyperlink{classtfp_1_1_clickable_area_ad2384603fab60ebb57c9f07d81885294}{Set\+Game\+Handle()}};. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_acfc318db2a45a07e8e8c31418aeceeca}\label{classtfp_1_1_clickable_area_acfc318db2a45a07e8e8c31418aeceeca}} 
+\mbox{\hyperlink{classtfp_1_1_clickable_area_acfc318db2a45a07e8e8c31418aeceeca}{$\sim$\+Clickable\+Area}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_ab642055e04ace78218510c42a97f0f01}\label{classtfp_1_1_clickable_area_ab642055e04ace78218510c42a97f0f01}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_ab642055e04ace78218510c42a97f0f01}{Reset}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle, sf\+::\+Vector2f Position, sf\+::\+Vector2f Size, bool Relative\+Size)
+\begin{DoxyCompactList}\small\item\em Resetuje rozmiar i pozycje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_ad2384603fab60ebb57c9f07d81885294}\label{classtfp_1_1_clickable_area_ad2384603fab60ebb57c9f07d81885294}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_ad2384603fab60ebb57c9f07d81885294}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Jesli nie ma mozliwosci ustawienia w konstruktorze. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_afeeaa98f916febd990f3a382612c8e34}{Check\+Active\+System}} ()
+\begin{DoxyCompactList}\small\item\em Tylko do Button\+Global\+List. Sprawdza czy obszar zostal aktywowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a318bfa23da7f0dd58489219e38663c0a}\label{classtfp_1_1_clickable_area_a318bfa23da7f0dd58489219e38663c0a}} 
+const bool \& \mbox{\hyperlink{classtfp_1_1_clickable_area_a318bfa23da7f0dd58489219e38663c0a}{Is\+Disabled}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy obszar jest zablokowany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a102396d3a1af3a9f969f463b8b4b02e6}\label{classtfp_1_1_clickable_area_a102396d3a1af3a9f969f463b8b4b02e6}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_a102396d3a1af3a9f969f463b8b4b02e6}{Set\+Disabled}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wylacza dzialane obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a8112c2b80c5f0c87064037c7e545c8c2}\label{classtfp_1_1_clickable_area_a8112c2b80c5f0c87064037c7e545c8c2}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_a8112c2b80c5f0c87064037c7e545c8c2}{Move}} (sf\+::\+Vector2f Distance)
+\begin{DoxyCompactList}\small\item\em Przesuwanie obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a2331a669fbbaf2bc14b5931c89efd277}\label{classtfp_1_1_clickable_area_a2331a669fbbaf2bc14b5931c89efd277}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_a2331a669fbbaf2bc14b5931c89efd277}{Set\+Position}} (sf\+::\+Vector2f Position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycje obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_af118a1882b577a097728c615395b6cfd}\label{classtfp_1_1_clickable_area_af118a1882b577a097728c615395b6cfd}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_af118a1882b577a097728c615395b6cfd}{Set\+Size}} (sf\+::\+Vector2f Size)
+\begin{DoxyCompactList}\small\item\em Ustawia wymiary obszaru. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a5f195520a56f10ffe940fe98215a7f9b}\label{classtfp_1_1_clickable_area_a5f195520a56f10ffe940fe98215a7f9b}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ \mbox{\hyperlink{classtfp_1_1_clickable_area_a5f195520a56f10ffe940fe98215a7f9b}{Get\+Game\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca uchwyt na gre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_afdd473c2814b40ae47a6d64c08809cd7}\label{classtfp_1_1_clickable_area_afdd473c2814b40ae47a6d64c08809cd7}} 
+bool \mbox{\hyperlink{classtfp_1_1_clickable_area_afdd473c2814b40ae47a6d64c08809cd7}{Is\+Button\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca czy jest wciskany. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_add58fcc4eca0a7c0c0d533e54e380f5b}\label{classtfp_1_1_clickable_area_add58fcc4eca0a7c0c0d533e54e380f5b}} 
+bool \mbox{\hyperlink{classtfp_1_1_clickable_area_add58fcc4eca0a7c0c0d533e54e380f5b}{Is\+Button\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca czy jest nacisniety. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a3fb5bb723bff9e60248f33721b04460e}\label{classtfp_1_1_clickable_area_a3fb5bb723bff9e60248f33721b04460e}} 
+void \mbox{\hyperlink{classtfp_1_1_clickable_area_a3fb5bb723bff9e60248f33721b04460e}{Set\+Active}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia obszar jako aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a059b79306eb4aa372e515ae68e872b2b}\label{classtfp_1_1_clickable_area_a059b79306eb4aa372e515ae68e872b2b}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_clickable_area_a059b79306eb4aa372e515ae68e872b2b}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca pozycje area. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_a1acb675c98f351065e33a248cd6893ed}\label{classtfp_1_1_clickable_area_a1acb675c98f351065e33a248cd6893ed}} 
+sf\+::\+Vector2f \& \mbox{\hyperlink{classtfp_1_1_clickable_area_a1acb675c98f351065e33a248cd6893ed}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar area. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_clickable_area_afeeaa98f916febd990f3a382612c8e34}\label{classtfp_1_1_clickable_area_afeeaa98f916febd990f3a382612c8e34}} 
+\index{tfp\+::\+Clickable\+Area@{tfp\+::\+Clickable\+Area}!Check\+Active\+System@{Check\+Active\+System}}
+\index{Check\+Active\+System@{Check\+Active\+System}!tfp\+::\+Clickable\+Area@{tfp\+::\+Clickable\+Area}}
+\subsubsection{\texorpdfstring{Check\+Active\+System()}{CheckActiveSystem()}}
+{\footnotesize\ttfamily void tfp\+::\+Clickable\+Area\+::\+Check\+Active\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tylko do Button\+Global\+List. Sprawdza czy obszar zostal aktywowany. 
+
+Klikniecie w przycisk
+
+Left\+Button\+Up in rect
+
+Left\+Button\+Up outside rect
+
+Klikniecie w przycisk
+
+Left\+Button\+Up in rect
+
+Left\+Button\+Up outside rect 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+area.\+hpp\item 
+area.\+cpp\end{DoxyCompactItemize}

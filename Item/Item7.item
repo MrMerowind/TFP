@@ -1,0 +1,15 @@
+TexturePath: Graphics/Item/Item7.png
+Name: "Fire spell book"
+Type: Weapon
+MaximumQuantity: 1
+RequiredLevel: 0
+MinimumDamage: 290
+MaximumDamage: 296
+AttackSpeed: 2.5
+LifeSteal: 0.0
+IceElement: 0
+DarknessElement: 0
+FireElement: 22
+WaterElement: 0
+LightElement: 0
+EarthElement: 0

@@ -1,0 +1,1 @@
+Tam jest komenda w terrain do listowania tu plikow z folderu

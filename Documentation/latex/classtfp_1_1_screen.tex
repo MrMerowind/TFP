@@ -1,0 +1,191 @@
+\hypertarget{classtfp_1_1_screen}{}\section{tfp\+:\+:Screen Class Reference}
+\label{classtfp_1_1_screen}\index{tfp\+::\+Screen@{tfp\+::\+Screen}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtfp_1_1_screen_a8a5d28db3e41c9e816dc1ea6a6aa9a81}{Screen}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ace30a792f8887193324d999b5686cae3}\label{classtfp_1_1_screen_ace30a792f8887193324d999b5686cae3}} 
+\mbox{\hyperlink{classtfp_1_1_screen_ace30a792f8887193324d999b5686cae3}{$\sim$\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a67d43bfb9e822042feb60457e915c9ff}\label{classtfp_1_1_screen_a67d43bfb9e822042feb60457e915c9ff}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a67d43bfb9e822042feb60457e915c9ff}{Display\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Wyswietla okno i obsluguje wszystkie zdarzenia. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a63867d99a2023ca238375281c8b810f0}\label{classtfp_1_1_screen_a63867d99a2023ca238375281c8b810f0}} 
+const bool \mbox{\hyperlink{classtfp_1_1_screen_a63867d99a2023ca238375281c8b810f0}{Is\+Window\+Open}} ()
+\begin{DoxyCompactList}\small\item\em Czy okno jest otwarte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_abf2439c27caf3e12742a5d1f6f4e6c55}\label{classtfp_1_1_screen_abf2439c27caf3e12742a5d1f6f4e6c55}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_abf2439c27caf3e12742a5d1f6f4e6c55}{Draw}} (const sf\+::\+Drawable \&Drawable)
+\begin{DoxyCompactList}\small\item\em Rysowanie w oknie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a137bcd621d06eae9a53d743f8c6ad135}\label{classtfp_1_1_screen_a137bcd621d06eae9a53d743f8c6ad135}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a137bcd621d06eae9a53d743f8c6ad135}{Draw\+Vertex}} (const sf\+::\+Vertex $\ast$vertices, std\+::size\+\_\+t vertex\+Count, sf\+::\+Primitive\+Type type, const sf\+::\+Render\+States \&states=sf\+::\+Render\+States\+::\+Default)
+\begin{DoxyCompactList}\small\item\em Rysowanie w oknie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a9c1b0e49638812235f547e5c6c8b4789}\label{classtfp_1_1_screen_a9c1b0e49638812235f547e5c6c8b4789}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a9c1b0e49638812235f547e5c6c8b4789}{Clear}} ()
+\begin{DoxyCompactList}\small\item\em Wyczysc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a6ca9681484ed2c404beb13c437138676}\label{classtfp_1_1_screen_a6ca9681484ed2c404beb13c437138676}} 
+sf\+::\+Event \mbox{\hyperlink{classtfp_1_1_screen_a6ca9681484ed2c404beb13c437138676}{Get\+Screen\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Pobieranie eventow ze screen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a9f224862fc68528caa4cc1f5fb73f013}\label{classtfp_1_1_screen_a9f224862fc68528caa4cc1f5fb73f013}} 
+const bool {\bfseries Is\+Event\+In\+Queue} ()
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a11e80d123390d4713b4b7ba49a5af393}\label{classtfp_1_1_screen_a11e80d123390d4713b4b7ba49a5af393}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a11e80d123390d4713b4b7ba49a5af393}{Close}} ()
+\begin{DoxyCompactList}\small\item\em Zamykanie okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_aa27dec08639e5aadcdce2af3674db316}\label{classtfp_1_1_screen_aa27dec08639e5aadcdce2af3674db316}} 
+const bool \& \mbox{\hyperlink{classtfp_1_1_screen_aa27dec08639e5aadcdce2af3674db316}{Is\+Focused}} () const
+\begin{DoxyCompactList}\small\item\em Czy jest aktywne okno. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_af2f7112d8498bb2ee538929e6c96921d}\label{classtfp_1_1_screen_af2f7112d8498bb2ee538929e6c96921d}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_af2f7112d8498bb2ee538929e6c96921d}{Set\+Focus}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia focus okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a4b985b553b9592d774226fc4edc5488c}\label{classtfp_1_1_screen_a4b985b553b9592d774226fc4edc5488c}} 
+const int \mbox{\hyperlink{classtfp_1_1_screen_a4b985b553b9592d774226fc4edc5488c}{Get\+Framerate\+Limit}} () const
+\begin{DoxyCompactList}\small\item\em Pobiera limit klatek;. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a1cdd94f37e5f93003e2e1026fb204aec}\label{classtfp_1_1_screen_a1cdd94f37e5f93003e2e1026fb204aec}} 
+sf\+::\+Render\+Window \& \mbox{\hyperlink{classtfp_1_1_screen_a1cdd94f37e5f93003e2e1026fb204aec}{Get\+Render\+Window\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Uzywac tylko w funkcjach sfml. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a840bee6a6f3f201da6daa388ff15e850}\label{classtfp_1_1_screen_a840bee6a6f3f201da6daa388ff15e850}} 
+const sf\+::\+Vector2i \mbox{\hyperlink{classtfp_1_1_screen_a840bee6a6f3f201da6daa388ff15e850}{Get\+Window\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Wymiary okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a88b2486f29909286c7388328722414d2}\label{classtfp_1_1_screen_a88b2486f29909286c7388328722414d2}} 
+const sf\+::\+Vector2i \mbox{\hyperlink{classtfp_1_1_screen_a88b2486f29909286c7388328722414d2}{Get\+View\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Wymiary widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ab6ba51ac1063ed7b9cab2195065887f2}\label{classtfp_1_1_screen_ab6ba51ac1063ed7b9cab2195065887f2}} 
+const sf\+::\+Vector2i \mbox{\hyperlink{classtfp_1_1_screen_ab6ba51ac1063ed7b9cab2195065887f2}{Get\+Original\+View\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Wymiary oryginalne widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a19f350b2ef7e30842d2d582976034215}\label{classtfp_1_1_screen_a19f350b2ef7e30842d2d582976034215}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a19f350b2ef7e30842d2d582976034215}{Set\+View\+Scale}} (float Scale)
+\begin{DoxyCompactList}\small\item\em Zmiana skali widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a064c5c3f3d83d229a9d66df1c9bd1054}\label{classtfp_1_1_screen_a064c5c3f3d83d229a9d66df1c9bd1054}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a064c5c3f3d83d229a9d66df1c9bd1054}{Resize}} (int Width, int Height, bool Full\+Screen)
+\begin{DoxyCompactList}\small\item\em Zmiana rozmiaru okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ab432ae70eebd86b018d9d1d21cf3abb2}\label{classtfp_1_1_screen_ab432ae70eebd86b018d9d1d21cf3abb2}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_ab432ae70eebd86b018d9d1d21cf3abb2}{Resize}} ()
+\begin{DoxyCompactList}\small\item\em Reset rozmiaru okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ad9257fe04dff4799034d400139d551fb}\label{classtfp_1_1_screen_ad9257fe04dff4799034d400139d551fb}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_ad9257fe04dff4799034d400139d551fb}{Set\+View\+Size}} (int Width, int Height)
+\begin{DoxyCompactList}\small\item\em Zmiana rozmiaru widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a291e2adea82570ac89dd57fba8674fdf}\label{classtfp_1_1_screen_a291e2adea82570ac89dd57fba8674fdf}} 
+const float \mbox{\hyperlink{classtfp_1_1_screen_a291e2adea82570ac89dd57fba8674fdf}{Get\+View\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca skale zmienionej przez komendy do oryginalnej rozdzielczosci. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a134be9e36c0ff4761fe81d25045f4806}\label{classtfp_1_1_screen_a134be9e36c0ff4761fe81d25045f4806}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a134be9e36c0ff4761fe81d25045f4806}{Set\+Window\+Title}} (std\+::wstring Title)
+\begin{DoxyCompactList}\small\item\em Zmienia nazwe okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a7e3775842c52977385ab5d98ba0bf31d}\label{classtfp_1_1_screen_a7e3775842c52977385ab5d98ba0bf31d}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a7e3775842c52977385ab5d98ba0bf31d}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Ustawia wskacnik gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a81bf8070d65936fb5dd3a0b186137ea0}\label{classtfp_1_1_screen_a81bf8070d65936fb5dd3a0b186137ea0}} 
+bool \mbox{\hyperlink{classtfp_1_1_screen_a81bf8070d65936fb5dd3a0b186137ea0}{Get\+Full\+Screen}} (std\+::string Game\+Type)
+\begin{DoxyCompactList}\small\item\em Zwraca czy pelny ekran jest wlaczony w wybranym oknie gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a35c1f8551d84675694a0b3fc06161dee}\label{classtfp_1_1_screen_a35c1f8551d84675694a0b3fc06161dee}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a35c1f8551d84675694a0b3fc06161dee}{Set\+Full\+Screen}} (std\+::string Game\+Type, bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia pelny ekran w wybranym oknie gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a7fef3437450fa6e50642793beed28081}\label{classtfp_1_1_screen_a7fef3437450fa6e50642793beed28081}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a7fef3437450fa6e50642793beed28081}{Set\+Window\+Size}} (std\+::string Game\+Type, int New\+Width, int New\+Height)
+\begin{DoxyCompactList}\small\item\em Ustawia rozmiar wybranego okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a772f3f5d508d716152c7193873100acd}\label{classtfp_1_1_screen_a772f3f5d508d716152c7193873100acd}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a772f3f5d508d716152c7193873100acd}{Save\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Zapisuje konfiguracje ustawien. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a1343043f5e05a5f623a231855ede76ae}\label{classtfp_1_1_screen_a1343043f5e05a5f623a231855ede76ae}} 
+bool \mbox{\hyperlink{classtfp_1_1_screen_a1343043f5e05a5f623a231855ede76ae}{Get\+Vertical\+Sync}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca czy synchronizacja pionowa jest aktywna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a6574eead04fbb2a4fa596fc8e6a19a81}\label{classtfp_1_1_screen_a6574eead04fbb2a4fa596fc8e6a19a81}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_a6574eead04fbb2a4fa596fc8e6a19a81}{Set\+Vertical\+Sync}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia synchronizacje pionowa. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ad143e88307318b185382dc563c956cb2}\label{classtfp_1_1_screen_ad143e88307318b185382dc563c956cb2}} 
+void \mbox{\hyperlink{classtfp_1_1_screen_ad143e88307318b185382dc563c956cb2}{Reset\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Resetuje ustawienia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a68859ed29c3e240fac1fca0920faeb5d}\label{classtfp_1_1_screen_a68859ed29c3e240fac1fca0920faeb5d}} 
+int \mbox{\hyperlink{classtfp_1_1_screen_a68859ed29c3e240fac1fca0920faeb5d}{Menu\+Width}}
+\begin{DoxyCompactList}\small\item\em Rozmiar okna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a82692b112df068cf9ef727ca4cadc200}\label{classtfp_1_1_screen_a82692b112df068cf9ef727ca4cadc200}} 
+int {\bfseries Game\+Width}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a6599cdf153a9ccfd09d995dd26b421ec}\label{classtfp_1_1_screen_a6599cdf153a9ccfd09d995dd26b421ec}} 
+int {\bfseries Map\+Editor\+Width}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_aa51f63d08fbded7e11c418012692fb0e}\label{classtfp_1_1_screen_aa51f63d08fbded7e11c418012692fb0e}} 
+int {\bfseries Server\+Width}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a468f094b9a0cd31767321773ff4ba312}\label{classtfp_1_1_screen_a468f094b9a0cd31767321773ff4ba312}} 
+int {\bfseries Menu\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a858c0dcb6d1da77e3f70743c18629c73}\label{classtfp_1_1_screen_a858c0dcb6d1da77e3f70743c18629c73}} 
+int {\bfseries Game\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a40a8c425ef0dc280bdd0c5eac03971d5}\label{classtfp_1_1_screen_a40a8c425ef0dc280bdd0c5eac03971d5}} 
+int {\bfseries Map\+Editor\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a9849da02386c868319f57a779caa6d11}\label{classtfp_1_1_screen_a9849da02386c868319f57a779caa6d11}} 
+int {\bfseries Server\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a67b21d9e724e9ba8b6e58fc50a88d168}\label{classtfp_1_1_screen_a67b21d9e724e9ba8b6e58fc50a88d168}} 
+int \mbox{\hyperlink{classtfp_1_1_screen_a67b21d9e724e9ba8b6e58fc50a88d168}{View\+Width}}
+\begin{DoxyCompactList}\small\item\em Rozmiar widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ac94d98692dbfab35e2bbd6fd7047b8b1}\label{classtfp_1_1_screen_ac94d98692dbfab35e2bbd6fd7047b8b1}} 
+int {\bfseries View\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a49ee27e83c988eb0143eebf2b86f3345}\label{classtfp_1_1_screen_a49ee27e83c988eb0143eebf2b86f3345}} 
+int {\bfseries View\+Original\+Width}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_aca50d096adc023b63c7675cb7be65beb}\label{classtfp_1_1_screen_aca50d096adc023b63c7675cb7be65beb}} 
+int {\bfseries View\+Original\+Height}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ab34d656b976b145fdeebf7a5b2635036}\label{classtfp_1_1_screen_ab34d656b976b145fdeebf7a5b2635036}} 
+int \mbox{\hyperlink{classtfp_1_1_screen_ab34d656b976b145fdeebf7a5b2635036}{View\+Horizontal\+Center}}
+\begin{DoxyCompactList}\small\item\em Srodek widoku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a3ee23f2c207b80b458afa208b85eadaf}\label{classtfp_1_1_screen_a3ee23f2c207b80b458afa208b85eadaf}} 
+int {\bfseries View\+Vertical\+Center}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a68c6e488610cc93d75b30e9c761085f6}\label{classtfp_1_1_screen_a68c6e488610cc93d75b30e9c761085f6}} 
+int \mbox{\hyperlink{classtfp_1_1_screen_a68c6e488610cc93d75b30e9c761085f6}{Framerate\+Limit}}
+\begin{DoxyCompactList}\small\item\em Limit klatek. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a81300c53477ca436d9571c6f930d3911}\label{classtfp_1_1_screen_a81300c53477ca436d9571c6f930d3911}} 
+bool {\bfseries Vertical\+Sync}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ac606f733891685f9fe9b95f4a6347396}\label{classtfp_1_1_screen_ac606f733891685f9fe9b95f4a6347396}} 
+std\+::wstring \mbox{\hyperlink{classtfp_1_1_screen_ac606f733891685f9fe9b95f4a6347396}{Window\+Title}}
+\begin{DoxyCompactList}\small\item\em Nazwa kona. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_af3ceb9db1a09942ef0e05817ec488a0c}\label{classtfp_1_1_screen_af3ceb9db1a09942ef0e05817ec488a0c}} 
+bool \mbox{\hyperlink{classtfp_1_1_screen_af3ceb9db1a09942ef0e05817ec488a0c}{Menu\+Full\+Screen}}
+\begin{DoxyCompactList}\small\item\em Peny ekran. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a956bcb4c85e3296ce5a2946f18a50c14}\label{classtfp_1_1_screen_a956bcb4c85e3296ce5a2946f18a50c14}} 
+bool {\bfseries Game\+Full\+Screen}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a0207594653fdf2fdbf61cbfc7b8824fd}\label{classtfp_1_1_screen_a0207594653fdf2fdbf61cbfc7b8824fd}} 
+bool {\bfseries Map\+Editor\+Full\+Screen}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ad7acd08a074f4ff2e8f920efd417c534}\label{classtfp_1_1_screen_ad7acd08a074f4ff2e8f920efd417c534}} 
+bool {\bfseries Server\+Full\+Screen}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_af31c6bbfdc16f6edfb70f6fdf27dd49b}\label{classtfp_1_1_screen_af31c6bbfdc16f6edfb70f6fdf27dd49b}} 
+bool {\bfseries Focus}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_a4abf6964cedb2d2ad0fdcbbc40335f2d}\label{classtfp_1_1_screen_a4abf6964cedb2d2ad0fdcbbc40335f2d}} 
+std\+::queue$<$ sf\+::\+Event $>$ \mbox{\hyperlink{classtfp_1_1_screen_a4abf6964cedb2d2ad0fdcbbc40335f2d}{Screen\+Events}}
+\begin{DoxyCompactList}\small\item\em Eventy ekranu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_screen_ac6fd9e943c0c10ec0ad6de58874bac04}\label{classtfp_1_1_screen_ac6fd9e943c0c10ec0ad6de58874bac04}} 
+\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$ {\bfseries Game\+Handle}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtfp_1_1_screen_a8a5d28db3e41c9e816dc1ea6a6aa9a81}\label{classtfp_1_1_screen_a8a5d28db3e41c9e816dc1ea6a6aa9a81}} 
+\index{tfp\+::\+Screen@{tfp\+::\+Screen}!Screen@{Screen}}
+\index{Screen@{Screen}!tfp\+::\+Screen@{tfp\+::\+Screen}}
+\subsubsection{\texorpdfstring{Screen()}{Screen()}}
+{\footnotesize\ttfamily tfp\+::\+Screen\+::\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor. 
+
+Wczytywanie configu 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+screen.\+hpp\item 
+screen.\+cpp\end{DoxyCompactItemize}

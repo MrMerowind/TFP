@@ -1,0 +1,7 @@
+TexturePath: Graphics/Item/Item1.png
+Name: "Item chest"
+Type: Bag
+MaximumQuantity: 1
+RequiredLevel: 150
+InventorySizeWidth: 10
+InventorySizeHeight: 10

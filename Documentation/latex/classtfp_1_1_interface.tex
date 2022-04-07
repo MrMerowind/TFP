@@ -1,0 +1,361 @@
+\hypertarget{classtfp_1_1_interface}{}\section{tfp\+:\+:Interface Class Reference}
+\label{classtfp_1_1_interface}\index{tfp\+::\+Interface@{tfp\+::\+Interface}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac3b09280b7ee907daf74d34456c856b0}\label{classtfp_1_1_interface_ac3b09280b7ee907daf74d34456c856b0}} 
+\mbox{\hyperlink{classtfp_1_1_interface_ac3b09280b7ee907daf74d34456c856b0}{Interface}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a4e07ff0873c6f830f5352579429330d8}\label{classtfp_1_1_interface_a4e07ff0873c6f830f5352579429330d8}} 
+\mbox{\hyperlink{classtfp_1_1_interface_a4e07ff0873c6f830f5352579429330d8}{$\sim$\+Interface}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+const bool \mbox{\hyperlink{classtfp_1_1_interface_ac6a62168a84c0a58f90f457b981cb6b9}{Display\+Interface}} (std\+::string Game\+Type)
+\begin{DoxyCompactList}\small\item\em Wyswietla interfejs, zwraca false gdy screen nie istnieje. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a48c7523ab99f00cf4a386f7e53cc1a9a}\label{classtfp_1_1_interface_a48c7523ab99f00cf4a386f7e53cc1a9a}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a48c7523ab99f00cf4a386f7e53cc1a9a}{Display\+Fps}} ()
+\begin{DoxyCompactList}\small\item\em Wyswietla licznik fps. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a9b7921e5ac2e273ad9d74d7978e67cdd}\label{classtfp_1_1_interface_a9b7921e5ac2e273ad9d74d7978e67cdd}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a9b7921e5ac2e273ad9d74d7978e67cdd}{Show\+Fps}} (bool State)
+\begin{DoxyCompactList}\small\item\em Ustawia czy pokazac licznik fps. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a262922eb14f99531f25257147952b3a9}\label{classtfp_1_1_interface_a262922eb14f99531f25257147952b3a9}} 
+const bool \mbox{\hyperlink{classtfp_1_1_interface_a262922eb14f99531f25257147952b3a9}{Is\+Fps\+Visible}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy licznik fps jest aktywny. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aaf7310297cd0484a321433d399578b1b}\label{classtfp_1_1_interface_aaf7310297cd0484a321433d399578b1b}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_aaf7310297cd0484a321433d399578b1b}{Load\+Debug\+Messages}} ()
+\begin{DoxyCompactList}\small\item\em Wczytuje wiadomosci debugu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a29475dfcc2b3a565c7b8242633616f43}\label{classtfp_1_1_interface_a29475dfcc2b3a565c7b8242633616f43}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a29475dfcc2b3a565c7b8242633616f43}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Zapisuje wskaznik do \mbox{\hyperlink{classtfp_1_1_screen}{Screen}} na ktorym sie renderuje interfejs. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa658dc89a9249109c8c2643c7d6e45ab}\label{classtfp_1_1_interface_aa658dc89a9249109c8c2643c7d6e45ab}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_aa658dc89a9249109c8c2643c7d6e45ab}{Show\+Command\+Line}} (bool Show)
+\begin{DoxyCompactList}\small\item\em Pokazuje lub chowa linie komend. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aabf92504d2950f393a16e8adeb4919b7}\label{classtfp_1_1_interface_aabf92504d2950f393a16e8adeb4919b7}} 
+const bool \mbox{\hyperlink{classtfp_1_1_interface_aabf92504d2950f393a16e8adeb4919b7}{Is\+Command\+Line\+Visible}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca czy konsola jest widoczna. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtfp_1_1_interface_a9d663b1162c4b165491a66cf8c55edc9}{Send\+Command\+Line\+Input}} (char Character)
+\begin{DoxyCompactList}\small\item\em Wpisuje znak do konsoli. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_adf80acbffab3298d3c01c0552d4cb31f}\label{classtfp_1_1_interface_adf80acbffab3298d3c01c0552d4cb31f}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_interface_adf80acbffab3298d3c01c0552d4cb31f}{Get\+Command\+Line\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca komende. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_acf9033a390a4173970cc5fcf60a13c5f}\label{classtfp_1_1_interface_acf9033a390a4173970cc5fcf60a13c5f}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_acf9033a390a4173970cc5fcf60a13c5f}{Send\+Command\+Line\+Output\+Line}} (std\+::string Line)
+\begin{DoxyCompactList}\small\item\em Wysyla komende. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa3aa2aafa7c3a126183eeb9055a088c9}\label{classtfp_1_1_interface_aa3aa2aafa7c3a126183eeb9055a088c9}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_aa3aa2aafa7c3a126183eeb9055a088c9}{Send\+Key\+Pressed}} (sf\+::\+Event Key)
+\begin{DoxyCompactList}\small\item\em Wysyla informacje o wcisnietm klawiszu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a52ff75098c2c18a2f11f10f9d943aabf}\label{classtfp_1_1_interface_a52ff75098c2c18a2f11f10f9d943aabf}} 
+const bool \mbox{\hyperlink{classtfp_1_1_interface_a52ff75098c2c18a2f11f10f9d943aabf}{Is\+Command\+Queue\+Empty}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy kolejka komend jest pusta. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ae12dd144c8b641ca4f8db59d5806e2bc}\label{classtfp_1_1_interface_ae12dd144c8b641ca4f8db59d5806e2bc}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_interface_ae12dd144c8b641ca4f8db59d5806e2bc}{Get\+Command\+To\+Run}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca wpisana komende do uruchomienia. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ab3956789135af7b28eaa61c0df2ff7ed}\label{classtfp_1_1_interface_ab3956789135af7b28eaa61c0df2ff7ed}} 
+const bool \mbox{\hyperlink{classtfp_1_1_interface_ab3956789135af7b28eaa61c0df2ff7ed}{Is\+Command\+Line\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca czy konsola jest aktywna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a1559076ea0db2d085fcd5c8e458ffeaa}\label{classtfp_1_1_interface_a1559076ea0db2d085fcd5c8e458ffeaa}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a1559076ea0db2d085fcd5c8e458ffeaa}{Set\+Terrain\+Names\+Index}} (int Value)
+\begin{DoxyCompactList}\small\item\em Ustawia indeks terenow do pokazania w okienku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ab7961eb7aa1373dc554b7ea130c2cd0f}\label{classtfp_1_1_interface_ab7961eb7aa1373dc554b7ea130c2cd0f}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_ab7961eb7aa1373dc554b7ea130c2cd0f}{Set\+Terrain\+Names\+Index\+Add}} (int Value)
+\begin{DoxyCompactList}\small\item\em Zwieksza indeks terenow do pokazania w okienku o podana wartosc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a0f465cb38e146bac8efa4808b6784227}\label{classtfp_1_1_interface_a0f465cb38e146bac8efa4808b6784227}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a0f465cb38e146bac8efa4808b6784227}{Set\+Language\+Names\+Index\+Add}} (int Value)
+\begin{DoxyCompactList}\small\item\em Zwieksza indeks jezykow do pokazania w okienku o podana wartosc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a2651a9cd58974dd5b1bcaa67f8053383}\label{classtfp_1_1_interface_a2651a9cd58974dd5b1bcaa67f8053383}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a2651a9cd58974dd5b1bcaa67f8053383}{Set\+Grid}} (int Width, int Height)
+\begin{DoxyCompactList}\small\item\em Wlancza siatke o podanych wymiarow. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad9c8c5694a92d3231a908b0ca1cfca0a}\label{classtfp_1_1_interface_ad9c8c5694a92d3231a908b0ca1cfca0a}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_ad9c8c5694a92d3231a908b0ca1cfca0a}{Show\+Grid}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wlancza lub wylacza widocznosc siatki. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_af60c5483d296abcd46189599c168c985}\label{classtfp_1_1_interface_af60c5483d296abcd46189599c168c985}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_af60c5483d296abcd46189599c168c985}{Enable\+Grid}} (bool State)
+\begin{DoxyCompactList}\small\item\em Wlancza lub wylacza dzialanie siatki. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac43565d0cb0f9299b5109836a10cb4e5}\label{classtfp_1_1_interface_ac43565d0cb0f9299b5109836a10cb4e5}} 
+bool \mbox{\hyperlink{classtfp_1_1_interface_ac43565d0cb0f9299b5109836a10cb4e5}{Is\+Grid\+Visible}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca czy siatka jest widoczna. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a11245e248584d6adda5d876a48bf89a3}\label{classtfp_1_1_interface_a11245e248584d6adda5d876a48bf89a3}} 
+std\+::string \mbox{\hyperlink{classtfp_1_1_interface_a11245e248584d6adda5d876a48bf89a3}{Get\+Tile\+Build\+Mode}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca jakie tilesy maja byc wysiwietlane w oknie wyboru terenu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a798b5e201fc14d29e1f74f77bbd45c9c}\label{classtfp_1_1_interface_a798b5e201fc14d29e1f74f77bbd45c9c}} 
+void \mbox{\hyperlink{classtfp_1_1_interface_a798b5e201fc14d29e1f74f77bbd45c9c}{Set\+Tile\+Build\+Mode}} (std\+::string Mode)
+\begin{DoxyCompactList}\small\item\em Ustawia jakie tilesy maja byc wyswietlane w oknie wyboru terenu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a1cc8ce6ec7bbced969a3e936fd46737b}\label{classtfp_1_1_interface_a1cc8ce6ec7bbced969a3e936fd46737b}} 
+\mbox{\hyperlink{classtfp_1_1specialeffects_1_1_rain}{tfp\+::specialeffects\+::\+Rain}} {\bfseries Rain\+Effect}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a2d72554c48faef83eb8fe468a861415c}\label{classtfp_1_1_interface_a2d72554c48faef83eb8fe468a861415c}} 
+\mbox{\hyperlink{classtfp_1_1specialeffects_1_1_snow}{tfp\+::specialeffects\+::\+Snow}} {\bfseries Snow\+Effect}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a65bc11e80f988f8e97d2f94cb1fce805}\label{classtfp_1_1_interface_a65bc11e80f988f8e97d2f94cb1fce805}} 
+\mbox{\hyperlink{classtfp_1_1specialeffects_1_1_storm}{tfp\+::specialeffects\+::\+Storm}} {\bfseries Storm\+Effect}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a3393f509bdaf62f71bb535262d6f6926}\label{classtfp_1_1_interface_a3393f509bdaf62f71bb535262d6f6926}} 
+\mbox{\hyperlink{classtfp_1_1specialeffects_1_1_night}{tfp\+::specialeffects\+::\+Night}} {\bfseries Night\+Effect}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a66c45d2aef0d077422b446e7f4f883b3}\label{classtfp_1_1_interface_a66c45d2aef0d077422b446e7f4f883b3}} 
+unsigned {\bfseries Terrain\+Names\+Index}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a442d985e044da5b90dd659af6e918f8f}\label{classtfp_1_1_interface_a442d985e044da5b90dd659af6e918f8f}} 
+unsigned {\bfseries Terrain\+Names\+Selected\+Index}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a71d169bd17887bda28106adc503dc0cd}\label{classtfp_1_1_interface_a71d169bd17887bda28106adc503dc0cd}} 
+unsigned {\bfseries Language\+Names\+Index}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a90dd8618f5d549313d026920623d4d42}\label{classtfp_1_1_interface_a90dd8618f5d549313d026920623d4d42}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} \mbox{\hyperlink{classtfp_1_1_interface_a90dd8618f5d549313d026920623d4d42}{Authors\+Button\+Close}}
+\begin{DoxyCompactList}\small\item\em Okna (W kolejnosci od renderowanego na gorze do renderowanego na dole. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aecbad87a8b3bfdf59a58c6ba832f3686}\label{classtfp_1_1_interface_aecbad87a8b3bfdf59a58c6ba832f3686}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Authors\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad34ed1f2b8fe0873d9757940af46c714}\label{classtfp_1_1_interface_ad34ed1f2b8fe0873d9757940af46c714}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Video\+Options\+Reset\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a9037bf2789637c435cfefa4aca114ca6}\label{classtfp_1_1_interface_a9037bf2789637c435cfefa4aca114ca6}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Video\+Options\+Close\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ab57e2536a7ed20245488005e2851be85}\label{classtfp_1_1_interface_ab57e2536a7ed20245488005e2851be85}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Vertical\+Sync\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ab9625d1194ddb8418dcdc1caa26fce61}\label{classtfp_1_1_interface_ab9625d1194ddb8418dcdc1caa26fce61}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Set\+Frame\+Limit\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_adaa07f703750f26b92077547e94fa0d4}\label{classtfp_1_1_interface_adaa07f703750f26b92077547e94fa0d4}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Frame\+Limit\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a3b06cbf5218fe56068a0c62e18e74e40}\label{classtfp_1_1_interface_a3b06cbf5218fe56068a0c62e18e74e40}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Server\+Window\+Size\+Button} \mbox{[}13\mbox{]}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a48302c9e6a7e9db1513ec2e9deb7a4e0}\label{classtfp_1_1_interface_a48302c9e6a7e9db1513ec2e9deb7a4e0}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Map\+Editor\+Window\+Size\+Button} \mbox{[}13\mbox{]}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ab6ec9db037ea0f9465ccfd1d29a1d22d}\label{classtfp_1_1_interface_ab6ec9db037ea0f9465ccfd1d29a1d22d}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Game\+Window\+Size\+Button} \mbox{[}13\mbox{]}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad9064e70e6d11d3b3db39dbb737c7640}\label{classtfp_1_1_interface_ad9064e70e6d11d3b3db39dbb737c7640}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Menu\+Window\+Size\+Button} \mbox{[}13\mbox{]}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a193feedc7aaca91f94a01a04e689d713}\label{classtfp_1_1_interface_a193feedc7aaca91f94a01a04e689d713}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Video\+Options\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a627a8c8e7c2b03c2c4d394e48600770c}\label{classtfp_1_1_interface_a627a8c8e7c2b03c2c4d394e48600770c}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Reset\+Controls\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a99a19d52480142814c990f2df1c3ed6e}\label{classtfp_1_1_interface_a99a19d52480142814c990f2df1c3ed6e}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Close\+Controls\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_af13cf2833ac0c2f8a50a47a4dc5f4676}\label{classtfp_1_1_interface_af13cf2833ac0c2f8a50a47a4dc5f4676}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Screenshot\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a1acb0d853e4ca1a9737f5b6e9b2530b4}\label{classtfp_1_1_interface_a1acb0d853e4ca1a9737f5b6e9b2530b4}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Show\+Character\+Info\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a4d563a9cae4221375cfa42555e35353e}\label{classtfp_1_1_interface_a4d563a9cae4221375cfa42555e35353e}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Show\+Inventory\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa6f4bd6493c3e44af9a847b4c1d42117}\label{classtfp_1_1_interface_aa6f4bd6493c3e44af9a847b4c1d42117}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Redo\+Terrain\+Changes\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a422d8a28b69459d516656e382750ac37}\label{classtfp_1_1_interface_a422d8a28b69459d516656e382750ac37}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Undo\+Terrain\+Changes\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_adecb7324c52273e4cd4fea7d332bc744}\label{classtfp_1_1_interface_adecb7324c52273e4cd4fea7d332bc744}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Show\+Terrain\+Select\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad4d4f08dfb9c36717e5e126b5f1900c5}\label{classtfp_1_1_interface_ad4d4f08dfb9c36717e5e126b5f1900c5}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Show\+Options\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a1c42f1d196e19a3de2ceb37a67d6aa80}\label{classtfp_1_1_interface_a1c42f1d196e19a3de2ceb37a67d6aa80}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Show\+Console\+Input\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a71db40996b92d0bbf3a12de39478d6c9}\label{classtfp_1_1_interface_a71db40996b92d0bbf3a12de39478d6c9}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Controls\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_af2b712c36a478c5856c6d1ed1596460c}\label{classtfp_1_1_interface_af2b712c36a478c5856c6d1ed1596460c}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Language\+Button\+Select} \mbox{[}9\mbox{]}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a38773ba5feb4a652833b3f5a01d282c1}\label{classtfp_1_1_interface_a38773ba5feb4a652833b3f5a01d282c1}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Language\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a5199c719a7da558de046e2224d4a3a1e}\label{classtfp_1_1_interface_a5199c719a7da558de046e2224d4a3a1e}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Menu}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac6427a916d286c9057141cf675f05559}\label{classtfp_1_1_interface_ac6427a916d286c9057141cf675f05559}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Controls}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a7676a8c295f1a0a5971b5e0e07983cb0}\label{classtfp_1_1_interface_a7676a8c295f1a0a5971b5e0e07983cb0}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Video\+Options}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a53f5d6dad2a02c52260e8ac4b4b1c376}\label{classtfp_1_1_interface_a53f5d6dad2a02c52260e8ac4b4b1c376}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Map\+Editor}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad7f38639354ee643f4add54936df7ac9}\label{classtfp_1_1_interface_ad7f38639354ee643f4add54936df7ac9}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Language}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a71c4cc9b661a89804f571ec9c0192a7d}\label{classtfp_1_1_interface_a71c4cc9b661a89804f571ec9c0192a7d}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Authors}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a367f8206a34c9aefd555751e04ca6e04}\label{classtfp_1_1_interface_a367f8206a34c9aefd555751e04ca6e04}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Exit}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a71b221d394f401d625be8855d74ed7e6}\label{classtfp_1_1_interface_a71b221d394f401d625be8855d74ed7e6}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Exit\+All}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a7e2a00c4353efd778fe09e1397566df8}\label{classtfp_1_1_interface_a7e2a00c4353efd778fe09e1397566df8}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Options\+Close}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad252603f669f5173615c84046087c98c}\label{classtfp_1_1_interface_ad252603f669f5173615c84046087c98c}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Options\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a9f3e4b447b38ea3bf4ad671bfc0cea9e}\label{classtfp_1_1_interface_a9f3e4b447b38ea3bf4ad671bfc0cea9e}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Character\+Info\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aad357567f5b0659e92fed0869f18740c}\label{classtfp_1_1_interface_aad357567f5b0659e92fed0869f18740c}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Inventory\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a759d6789c20a307709b6cf1ea72631d7}\label{classtfp_1_1_interface_a759d6789c20a307709b6cf1ea72631d7}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Terrain\+Select\+Input\+Set\+Grid\+SizeX}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_abfe118ab898f99940191d8a967a0fae2}\label{classtfp_1_1_interface_abfe118ab898f99940191d8a967a0fae2}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Terrain\+Select\+Input\+Set\+Grid\+SizeY}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a87388118da4c6973e01a75823c311014}\label{classtfp_1_1_interface_a87388118da4c6973e01a75823c311014}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Set\+Grid\+Size}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a32312e9a97dceb258d76a37bdc4e82d0}\label{classtfp_1_1_interface_a32312e9a97dceb258d76a37bdc4e82d0}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Terrain\+Select\+Input\+Set\+Map\+SizeX}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a9de1db7c2d96b385a5845ace2ef672fd}\label{classtfp_1_1_interface_a9de1db7c2d96b385a5845ace2ef672fd}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Terrain\+Select\+Input\+Set\+Map\+SizeY}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac29d6ee5fd0bb4be8acbd9fd5d6d1cc3}\label{classtfp_1_1_interface_ac29d6ee5fd0bb4be8acbd9fd5d6d1cc3}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Set\+Map\+Size}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_acebdd4c3888177e01af2015ffc740ca5}\label{classtfp_1_1_interface_acebdd4c3888177e01af2015ffc740ca5}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Special}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a50571cc5003c6621d5fa12baf08f8826}\label{classtfp_1_1_interface_a50571cc5003c6621d5fa12baf08f8826}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Mobs}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac5c82c97770238ce2b4a6fccf7579e1f}\label{classtfp_1_1_interface_ac5c82c97770238ce2b4a6fccf7579e1f}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Objects}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a07e09106c819ecf2cd7eebeb46e4dc1b}\label{classtfp_1_1_interface_a07e09106c819ecf2cd7eebeb46e4dc1b}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Terrain}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a101184e9f783d91f7be8ff395e0ef150}\label{classtfp_1_1_interface_a101184e9f783d91f7be8ff395e0ef150}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Next}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac42064c9beb3c0129db244395a5e8288}\label{classtfp_1_1_interface_ac42064c9beb3c0129db244395a5e8288}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Previous}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a67565632a25123bc3eb489f1772d8b71}\label{classtfp_1_1_interface_a67565632a25123bc3eb489f1772d8b71}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Disable\+Grid}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a61b286fa92e1f069f08bb1ec2f3036c2}\label{classtfp_1_1_interface_a61b286fa92e1f069f08bb1ec2f3036c2}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Hide\+Grid}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ac3984cb7fd3c56f610915b39d833093a}\label{classtfp_1_1_interface_ac3984cb7fd3c56f610915b39d833093a}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Lock\+Camera}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa8f3ae3b85f335406e2fea64c7a74937}\label{classtfp_1_1_interface_aa8f3ae3b85f335406e2fea64c7a74937}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Unlock\+Camera}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_afa39890dfe3fe870dc0632378af23d58}\label{classtfp_1_1_interface_afa39890dfe3fe870dc0632378af23d58}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Load\+Map}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_ad8b7b746e7cea3cf0d2ff2443282a514}\label{classtfp_1_1_interface_ad8b7b746e7cea3cf0d2ff2443282a514}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Terrain\+Select\+Button\+Save\+Map}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a52cefaddd9cb60e4af2a48ef3d3f0fa9}\label{classtfp_1_1_interface_a52cefaddd9cb60e4af2a48ef3d3f0fa9}} 
+\mbox{\hyperlink{classtfp_1_1_window}{tfp\+::\+Window}} {\bfseries Terrain\+Select\+Window}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a66f277cd3ea46cb7021ae4646791413f}\label{classtfp_1_1_interface_a66f277cd3ea46cb7021ae4646791413f}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} \mbox{\hyperlink{classtfp_1_1_interface_a66f277cd3ea46cb7021ae4646791413f}{Host\+Game\+Button}}
+\begin{DoxyCompactList}\small\item\em Menu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a14a34cab4da268ad54da14ebf190b410}\label{classtfp_1_1_interface_a14a34cab4da268ad54da14ebf190b410}} 
+\mbox{\hyperlink{classtfp_1_1_button}{tfp\+::\+Button}} {\bfseries Join\+Game\+Button}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa68db6613f128c354756168517efd71f}\label{classtfp_1_1_interface_aa68db6613f128c354756168517efd71f}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Join\+Game\+Ip\+Input}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_af5004936649b8b52cc68c0ba8ce8d157}\label{classtfp_1_1_interface_af5004936649b8b52cc68c0ba8ce8d157}} 
+\mbox{\hyperlink{classtfp_1_1_input_bar}{tfp\+::\+Input\+Bar}} {\bfseries Join\+Game\+Port\+Input}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_aa31f0739f5e65e17b142f69fcb6627b3}\label{classtfp_1_1_interface_aa31f0739f5e65e17b142f69fcb6627b3}} 
+\mbox{\hyperlink{classtfp_1_1_loading_bar}{tfp\+::\+Loading\+Bar}} {\bfseries Health\+Bar}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_interface_a322eb0f1a114afed79957e9d1a28fa7a}\label{classtfp_1_1_interface_a322eb0f1a114afed79957e9d1a28fa7a}} 
+\mbox{\hyperlink{classtfp_1_1_loading_bar}{tfp\+::\+Loading\+Bar}} {\bfseries Mana\+Bar}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_interface_ac6a62168a84c0a58f90f457b981cb6b9}\label{classtfp_1_1_interface_ac6a62168a84c0a58f90f457b981cb6b9}} 
+\index{tfp\+::\+Interface@{tfp\+::\+Interface}!Display\+Interface@{Display\+Interface}}
+\index{Display\+Interface@{Display\+Interface}!tfp\+::\+Interface@{tfp\+::\+Interface}}
+\subsubsection{\texorpdfstring{Display\+Interface()}{DisplayInterface()}}
+{\footnotesize\ttfamily const bool tfp\+::\+Interface\+::\+Display\+Interface (\begin{DoxyParamCaption}\item[{std\+::string}]{Game\+Type }\end{DoxyParamCaption})}
+
+
+
+Wyswietla interfejs, zwraca false gdy screen nie istnieje. 
+
+Siatka
+
+Vertical lines
+
+Horizontal lines
+
+Paski zycia many
+
+\mbox{\hyperlink{classtfp_1_1_interface}{Interface}}
+
+Zawartosc przybornika
+
+Wszystkie tereny
+
+Ten gownik wybranego terenu (bedzie osobno na razie sie renderowal)
+
+Wybieranie terenu i stawianie
+
+Stawianie terenu na mapie
+
+Przerwa w stawianiu
+
+Wybieranie terenu
+
+Stawianie terenu na mapie
+
+Ustawianie pozycji
+
+Wlaczanie
+
+Wyswietlanie
+
+Wylaczanie
+
+Command line
+
+Fps
+
+Initializing loading
+
+Load Debug messages \mbox{\Hypertarget{classtfp_1_1_interface_a9d663b1162c4b165491a66cf8c55edc9}\label{classtfp_1_1_interface_a9d663b1162c4b165491a66cf8c55edc9}} 
+\index{tfp\+::\+Interface@{tfp\+::\+Interface}!Send\+Command\+Line\+Input@{Send\+Command\+Line\+Input}}
+\index{Send\+Command\+Line\+Input@{Send\+Command\+Line\+Input}!tfp\+::\+Interface@{tfp\+::\+Interface}}
+\subsubsection{\texorpdfstring{Send\+Command\+Line\+Input()}{SendCommandLineInput()}}
+{\footnotesize\ttfamily void tfp\+::\+Interface\+::\+Send\+Command\+Line\+Input (\begin{DoxyParamCaption}\item[{char}]{Character }\end{DoxyParamCaption})}
+
+
+
+Wpisuje znak do konsoli. 
+
+Nic ~\newline
+ Runn command ... 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+interface.\+hpp\item 
+interface.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+GifPath: Graphics/Animation/Character/MageTest_Walk_Down.png
+SecondsPerFrame: 0.5
+FrameWidth: 300
+FrameHeight: 500
+Frames: 4
+Collider: true

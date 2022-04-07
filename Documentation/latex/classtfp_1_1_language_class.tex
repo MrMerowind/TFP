@@ -1,0 +1,61 @@
+\hypertarget{classtfp_1_1_language_class}{}\section{tfp\+:\+:Language\+Class Class Reference}
+\label{classtfp_1_1_language_class}\index{tfp\+::\+Language\+Class@{tfp\+::\+Language\+Class}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_a5a6dd7ce51ed41085050e7b8585ba90b}\label{classtfp_1_1_language_class_a5a6dd7ce51ed41085050e7b8585ba90b}} 
+\mbox{\hyperlink{classtfp_1_1_language_class_a5a6dd7ce51ed41085050e7b8585ba90b}{Language\+Class}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_af9d0fd80a4f1fbcf56e8173e5523004e}\label{classtfp_1_1_language_class_af9d0fd80a4f1fbcf56e8173e5523004e}} 
+\mbox{\hyperlink{classtfp_1_1_language_class_af9d0fd80a4f1fbcf56e8173e5523004e}{$\sim$\+Language\+Class}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+const bool \mbox{\hyperlink{classtfp_1_1_language_class_af3f9a79c6d043fd46eeef94a9730e036}{Load\+Dictionary}} (std\+::wstring Language\+Name)
+\begin{DoxyCompactList}\small\item\em Wczytuje slownik z podanym jezykiem. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_af6d22dd6351b06abb899f1b24e1ab72c}\label{classtfp_1_1_language_class_af6d22dd6351b06abb899f1b24e1ab72c}} 
+void \mbox{\hyperlink{classtfp_1_1_language_class_af6d22dd6351b06abb899f1b24e1ab72c}{Unload\+Dictionary}} ()
+\begin{DoxyCompactList}\small\item\em Czysci slownik. \end{DoxyCompactList}\item 
+std\+::wstring \mbox{\hyperlink{classtfp_1_1_language_class_a8b0c58a37384663539c7ef40388521c1}{Translate}} (std\+::string Text)
+\begin{DoxyCompactList}\small\item\em Tlumaczy tekst na wybrany jezyk. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_ac30f48e5111e90bca217a1e8f17db77a}\label{classtfp_1_1_language_class_ac30f48e5111e90bca217a1e8f17db77a}} 
+bool \mbox{\hyperlink{classtfp_1_1_language_class_ac30f48e5111e90bca217a1e8f17db77a}{Load\+Locale}} (std\+::string Language)
+\begin{DoxyCompactList}\small\item\em Wczytuje informacje o kodowaniu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_a3b4023d8eb4719dde09261408fa4e80f}\label{classtfp_1_1_language_class_a3b4023d8eb4719dde09261408fa4e80f}} 
+void \mbox{\hyperlink{classtfp_1_1_language_class_a3b4023d8eb4719dde09261408fa4e80f}{Reset\+Locale}} ()
+\begin{DoxyCompactList}\small\item\em Ustawia informacje o kodowaniu ponownie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_language_class_a0b75791f74414d1557300b9c4305fbeb}\label{classtfp_1_1_language_class_a0b75791f74414d1557300b9c4305fbeb}} 
+std\+::vector$<$ std\+::string $>$ {\bfseries Language\+Name\+List}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_language_class_af3f9a79c6d043fd46eeef94a9730e036}\label{classtfp_1_1_language_class_af3f9a79c6d043fd46eeef94a9730e036}} 
+\index{tfp\+::\+Language\+Class@{tfp\+::\+Language\+Class}!Load\+Dictionary@{Load\+Dictionary}}
+\index{Load\+Dictionary@{Load\+Dictionary}!tfp\+::\+Language\+Class@{tfp\+::\+Language\+Class}}
+\subsubsection{\texorpdfstring{Load\+Dictionary()}{LoadDictionary()}}
+{\footnotesize\ttfamily const bool tfp\+::\+Language\+Class\+::\+Load\+Dictionary (\begin{DoxyParamCaption}\item[{std\+::wstring}]{Language\+Name }\end{DoxyParamCaption})}
+
+
+
+Wczytuje slownik z podanym jezykiem. 
+
+Zapisywanie wybranego jezyka \mbox{\Hypertarget{classtfp_1_1_language_class_a8b0c58a37384663539c7ef40388521c1}\label{classtfp_1_1_language_class_a8b0c58a37384663539c7ef40388521c1}} 
+\index{tfp\+::\+Language\+Class@{tfp\+::\+Language\+Class}!Translate@{Translate}}
+\index{Translate@{Translate}!tfp\+::\+Language\+Class@{tfp\+::\+Language\+Class}}
+\subsubsection{\texorpdfstring{Translate()}{Translate()}}
+{\footnotesize\ttfamily std\+::wstring tfp\+::\+Language\+Class\+::\+Translate (\begin{DoxyParamCaption}\item[{std\+::string}]{Text }\end{DoxyParamCaption})}
+
+
+
+Tlumaczy tekst na wybrany jezyk. 
+
+Sprawdzanie czy zawiera litery
+
+Jesli zawiera litery to tlumaczymy 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+language.\+hpp\item 
+language.\+cpp\end{DoxyCompactItemize}

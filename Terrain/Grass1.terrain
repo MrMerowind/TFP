@@ -1,0 +1,5 @@
+TexturePath: Graphics/Terrain/Grass1.png
+TexturePositionHorizontal: 0
+TexturePositionVertical: 0
+MovingSpeed: 1.00
+Colider: false

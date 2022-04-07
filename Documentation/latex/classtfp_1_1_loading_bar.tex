@@ -1,0 +1,72 @@
+\hypertarget{classtfp_1_1_loading_bar}{}\section{tfp\+:\+:Loading\+Bar Class Reference}
+\label{classtfp_1_1_loading_bar}\index{tfp\+::\+Loading\+Bar@{tfp\+::\+Loading\+Bar}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_ac5fd9da5312313247d1b3f4d7da29dc7}\label{classtfp_1_1_loading_bar_ac5fd9da5312313247d1b3f4d7da29dc7}} 
+enum {\bfseries Mode} \{ \newline
+{\bfseries None}, 
+{\bfseries Percentage\+Mode}, 
+{\bfseries Value\+Mode}, 
+{\bfseries Max\+Value\+Mode}, 
+\newline
+{\bfseries Full\+Mode}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_aa4c90db6a8cd6972d2829e1c10747a55}\label{classtfp_1_1_loading_bar_aa4c90db6a8cd6972d2829e1c10747a55}} 
+\mbox{\hyperlink{classtfp_1_1_loading_bar_aa4c90db6a8cd6972d2829e1c10747a55}{Loading\+Bar}} (sf\+::\+Vector2f Position=sf\+::\+Vector2f(0.\+0f, 0.\+0f), sf\+::\+Vector2f Size=sf\+::\+Vector2f(0.\+0f, 0.\+0f), tfp\+::\+Loading\+Bar\+::\+Mode Display\+Mode=tfp\+::\+Loading\+Bar\+::\+None)
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a1270bee80fa6af938d466ee20f5d8a70}\label{classtfp_1_1_loading_bar_a1270bee80fa6af938d466ee20f5d8a70}} 
+\mbox{\hyperlink{classtfp_1_1_loading_bar_a1270bee80fa6af938d466ee20f5d8a70}{$\sim$\+Loading\+Bar}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a172f4193878f9bb66af5e1307e6e434d}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Wyswietlenie przycisku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a01f26ce4fc71ac52844797ebf36d1be9}\label{classtfp_1_1_loading_bar_a01f26ce4fc71ac52844797ebf36d1be9}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a01f26ce4fc71ac52844797ebf36d1be9}{Set\+Position}} (float PositionX, float PositionY)
+\begin{DoxyCompactList}\small\item\em Ustawienie pozycji przycisku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_ad374e27fd26817c81b48c538ed72859b}\label{classtfp_1_1_loading_bar_ad374e27fd26817c81b48c538ed72859b}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_ad374e27fd26817c81b48c538ed72859b}{Move}} (float PositionX, float PositionY)
+\begin{DoxyCompactList}\small\item\em Przesuniecie przysicku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_ae297a4644a6892b6477ac21337033532}\label{classtfp_1_1_loading_bar_ae297a4644a6892b6477ac21337033532}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_ae297a4644a6892b6477ac21337033532}{Set\+Size}} (float Width, float Height)
+\begin{DoxyCompactList}\small\item\em Ustawienie wymierow przysicku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a326f9f40be8186b81ccc4636471fc3a9}\label{classtfp_1_1_loading_bar_a326f9f40be8186b81ccc4636471fc3a9}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a326f9f40be8186b81ccc4636471fc3a9}{Set\+Game\+Handle}} (\mbox{\hyperlink{classtfp_1_1_game}{tfp\+::\+Game}} $\ast$Handle)
+\begin{DoxyCompactList}\small\item\em Ustawienie wskaznika na okno gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a64a154f429156f741b6915f9c16e553a}\label{classtfp_1_1_loading_bar_a64a154f429156f741b6915f9c16e553a}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a64a154f429156f741b6915f9c16e553a}{Set\+Value}} (int Value\+\_\+)
+\begin{DoxyCompactList}\small\item\em Ustawia wartosc paska. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a69eba1f326367ef7f1554ea4b1c87065}\label{classtfp_1_1_loading_bar_a69eba1f326367ef7f1554ea4b1c87065}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a69eba1f326367ef7f1554ea4b1c87065}{Set\+Max\+Value}} (int Max\+Value)
+\begin{DoxyCompactList}\small\item\em Ustawia maksymalna wartosc paska. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a28d094d7e6549a7ed9119809ae732f32}\label{classtfp_1_1_loading_bar_a28d094d7e6549a7ed9119809ae732f32}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_a28d094d7e6549a7ed9119809ae732f32}{Set\+Mode}} (tfp\+::\+Loading\+Bar\+::\+Mode Bar\+Mode)
+\begin{DoxyCompactList}\small\item\em Ustawia tryb wyswietlania paska. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_ae20bc0b6b153404a8fabb9206fd7dd5f}\label{classtfp_1_1_loading_bar_ae20bc0b6b153404a8fabb9206fd7dd5f}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_ae20bc0b6b153404a8fabb9206fd7dd5f}{Set\+Color}} (sf\+::\+Color Bar\+Color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor paska. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_af906bdff041f8f70145fad9e56efb027}\label{classtfp_1_1_loading_bar_af906bdff041f8f70145fad9e56efb027}} 
+void \mbox{\hyperlink{classtfp_1_1_loading_bar_af906bdff041f8f70145fad9e56efb027}{Set\+Under\+Color}} (sf\+::\+Color Under\+Bar\+Color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor tla pod paskiem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtfp_1_1_loading_bar_a172f4193878f9bb66af5e1307e6e434d}\label{classtfp_1_1_loading_bar_a172f4193878f9bb66af5e1307e6e434d}} 
+\index{tfp\+::\+Loading\+Bar@{tfp\+::\+Loading\+Bar}!Display@{Display}}
+\index{Display@{Display}!tfp\+::\+Loading\+Bar@{tfp\+::\+Loading\+Bar}}
+\subsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily void tfp\+::\+Loading\+Bar\+::\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wyswietlenie przycisku. 
+
+Trzeba ustawic ten tekst na srodku,czcionka a potem \mbox{\hyperlink{classtfp_1_1_clickable_area}{tfp\+::\+Clickable\+Area}} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+button.\+hpp\item 
+button.\+cpp\end{DoxyCompactItemize}

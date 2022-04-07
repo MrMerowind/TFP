@@ -1,0 +1,5 @@
+GifPath: Graphics/Animation/KurwaLampa.png
+SecondsPerFrame: 2.0
+FrameWidth: 800
+FrameHeight: 800
+Frames: 3

@@ -1,0 +1,158 @@
+setwindowsize <width> <height>
+	Ustawia rozmiar okna
+setmenuwindowsize <width> <height>
+	Ustawia rozmiar okna menu
+setgamewindowsize <width> <height>
+	Ustawia rozmiar okna gry
+setmapeditorwindowsize <width> <height>
+	Ustawia rozmiar okna edytora map
+setserverwindowsize <width> <height>
+	Ustawia rozmiar okna serwera
+setviewsize <width> <height>
+	Ustawia rozmiar widoku
+resetvideooptions
+	Resetuje opcje wideo
+setframelimit <frames>
+	Limit klatek na sekunde wszystkich okien
+setverticalsync [true/false]
+	Wlacza synchronizacje pionowa
+setgamefullscreen [true/false]
+	Ustawia pelny ekran w grze
+setmenufullscreen [true/false]
+	Ustawia pelny ekran w menu
+setmapeditorfullscreen [true/false]
+	Ustawia pelny ekran w edytorze map
+setserverfullscreen [true/false]
+	Ustawia pelny ekran w serwerze
+setlanguage <language>
+	Zmienia jezyk
+lockcamera
+	Kamera nie pokaze terenu poza mapa
+debuginfo
+	Wyswietla informacje o oknie gry, widoku, kamerze, myszy i mapie
+debugwindow
+	Wyswietla informacje o zarejestrowanych oknach
+debugarea
+	Wyswietla informacje o zarejestrowanych obszarach
+debugkeyconfig
+	Wyswietla informacje o konfiguracji klawiszy
+showfps
+	Pokazuje licznik fps
+nexttile
+	Kolejne obiekty do wyboru w oknie wyboru terenu
+previoustile
+	Poprzednie obiekty do wyboru w oknie wyboru terenu
+hidefps
+	Chowa licznik fps
+reloadfonts
+	Czysci liste wczytanych czcionek
+reloadterrain
+	Czysci liste wczytanych terenow
+unlockcamera
+	Pozycja kamery moze byc dowolna
+setcameraposition <vertical> <horizontal>
+	Ustawia pozycje kamery
+setviewscale <scale>
+	Zmienia skale widoku (nie dziala)
+setmapsize <width> <height>
+	Ustawia rozmiar zaladowanej mapy
+setmapname <name>
+	Ustawia nazwe mapy
+setwindowtitle <window title>
+	Zmienia nazwe okna
+exit
+	Wylacza okno
+exitall
+	Wylacza wszystkie okna
+loadmap [map name]
+	Wczytywanie mapy
+savemap [map name]
+	Zapis mapy
+showgrid [true/false]
+	Pokazuje siatke
+authors [true/false]
+	Pokazuje okno autorow
+options [true/false]
+	Pokazuje okno opcji
+controls [true/false]
+	Pokazuje okno konfiguracji klawiszy
+videooptions [true/false]
+	Pokazuje okno opcji wideo
+enablegrid [true/false]
+	Wlacza siatke
+selectlanguage [true/false]
+	Pokacuje okno wyboru jezyka
+selectlanguagenext
+	Pokazuje kolejne jezyki w oknie wyboru jezyka
+selectlanguageprevious
+	Pokazuje poprzednie jezyki w oknie wyboru jezyka
+setgridsize [width] [height]
+	Wlacza siatke i ustawia rozmiar (domyslnie 200x200 czyli rozmiar terenu)
+unloadmap
+	Czyszczenie mapy
+mapeditor
+	Nowe okno edytora map
+server
+	Nowe okno serwera
+menu
+	Nowe okno menu
+newgame
+	Nowe okno gry
+joingame <ip> <port>
+	Dolacza do gry o podanym serwerze. Domyslnie localhost:5726
+setrain <density>
+	Wlacza deszcz o podanej intensywnosci
+setsnow <density>
+	Wlacza snieg o podanej intensywnosci
+setnight
+	Wlacza noc o podanej intensywnosci
+setstorm <minimum_seconds> <maximum_seconds>
+	Wlacza pioruny co podan przedzial sekunde
+shakecamera
+	Potrzasa kamera
+setclientid
+	Ustawia ID klienta
+setlighter [true/false]
+	Wlacza kub wylacza latarke
+reloadanimations
+	Wczytuje ponownie animacje
+reloaditems
+	Wczytuje ponownie przedmioty
+settilemode
+	Ustawia tryb wstawianych obiektow na mape
+setinventorysize [<Width> <Height>]
+	Ustawia rozmiar ekwipunku
+setinventoryitme <item name> <quantity> <item list position> <rarity level> <improvement level>
+	Ustawia podany przedmiot w ekwipunku
+showzindexhelp
+	Wyswietla informacje o indeksie w edytorze map
+setzindex
+	Ustawia Z-Indeks w edytorze map
+setgridshift <horizontal> <vertical>
+	Ustawia przesuniecie siatki
+ti
+	Test ekwipunku
+startserver <ip> <port>
+	Wlacza serwer na podanym porcie i IP. Domyslnie localhost:7526
+singleplayer
+	Uruchamia tryb singleplayer
+stopserver
+	Wylacza serwer
+performance
+	Wyswietla czasy wykonywania funkcji
+resetperformance
+	Resetuje czasy trwania funkcji (Liczone sa od nowa)
+whereami
+	Wyswietla informacje o pozycji gracza
+whereiscamera
+	Wyswietla informacje o pozycji kamery
+whereisplayer
+	Wyswietla pozycje gracza
+whereisplayeranimation
+	Wyswietla pozycje animacji gracza
+whereisplayerdestination
+	Wyswietla cel drogi gracza
+whereisplayeranimationdestination
+	Wyswietla cel drogi animacji gracza
+
+	
